@@ -1,0 +1,656 @@
+/* ========= Font Link Part Start ========= */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Noto+Sans+Bengali:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* ------------ Font Link Part End ------------ */
+/* ========= Common CSS Part Start ========= */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, ul, ol, p{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.common_heading h4{
+    font-size: 24px ;
+    font-weight: 600;
+    font-family: var(--titillium);
+    color: black !important;
+    text-align: center;
+}
+.common_heading h3{
+    font-size: 32px ;
+    font-weight: 600;
+    font-family: var(--titillium);
+    color: black !important;
+    text-align: center;
+}
+.common_heading h3 span{
+    color: var(--brand-color);
+}
+.common_heading p{
+    font-size: 18px ;
+    font-weight: 400;
+    font-family: var(--titillium);
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.common_heading p span{
+    display: block;
+}
+/* ------------ Common CSS Part End ------------ */
+/* ========= Variable Part Start ========= */
+:root{
+    --primary-color: #3F3F41;
+    --brand-color:#D31E28; 
+    --titillium: 'Noto Sans Bengali', sans-serif;
+}
+/* ------------ Variable Part End ------------ */
+/* =========== back to top button start ============== */
+.top_button{
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    color: var(--brand-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s all linear;
+    border: 2px solid var(--brand-color);
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    z-index: 999;
+    visibility: hidden;
+    opacity:0;
+}
+.top_button:hover{
+    background: var(--brand-color);
+    color: #fff;
+    cursor: pointer;
+}
+.go_top{
+    visibility: visible;
+    opacity: 1;
+    animation: came_top 1s;
+}
+@keyframes came_top{
+    from{
+        bottom: -10%;
+    }
+    to{
+        bottom: 10%;
+    }
+}
+/* ------------ back to top button end */
+/* ========= Menubar Part Start ========= */
+#menubar{
+    background: #F1F1F1 !important;
+}
+.menubar .logo{
+    width: 160px;
+}
+.menu_item li{
+    position: relative;
+    padding: 0 12px;
+}
+.menu_item li::after{
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    background: var(--brand-color);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 0.2s all linear;
+}
+.menu_item li:hover::after{
+    width: 100%;
+}
+.menu_item li a{
+    font-size: 18px ;
+    font-weight: 600;
+    font-family: var(--titillium);
+    color: var(--primary-color) !important ;
+    transition: 0.2s all linear;
+    text-align: center;
+}
+.menu_item li a:hover{
+    color: var(--brand-color) !important;
+}
+.get_button a{
+    width: 130px;
+    height: 40px;
+    background: var(--primary-color);
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--titillium);
+    color: #fff ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s all linear;
+    margin: 0 auto;
+}
+.get_button a:hover{
+    background: transparent;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2), 15px 15px 15px rgba(0,0,0,0.1), inset -5px -5px 5px rgba(255,255,255,0.2), inset 5px 5px 5px rgba(0,0,0,0.1);
+    color: var(--primary-color);
+    font-weight: 700;
+    transform: scale(1.05);
+}
+.sticky_navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    animation: nav_ani 1s;
+}
+
+@keyframes nav_ani{
+    from{
+        top: -10%;
+    }
+    to{
+        top: 0;
+    }
+}
+
+/* ------------ Menubar Part End ------------ */
+/* =========Banner Part Start ========= */
+#banner{
+    width: 100%;
+    background: url(../images/banner_bg.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 120px 0;
+}
+.banner_text h3{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: var(--titillium);
+    color: var(--brand-color);
+
+}
+.banner_text h1{
+    font-size: 100px;
+    font-weight: 900;
+    font-family: var(--titillium);
+    color: var(--brand-color);
+    margin:20px 0 10px 0;
+}
+
+.banner_text h1 span{
+    color: #576DB4;
+}
+
+.banner_text h2 span{
+    color: var(--primary-color);
+}
+.banner_text h3{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--titillium);
+    color: black !important;
+}
+
+.banner_text h4{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--titillium);
+    color: black !important;
+    margin-top: 20px;
+}
+
+.banner_text p{
+    width: 400px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--titillium);
+    color: var(--primary-color);
+    margin-top: 3px;
+    text-shadow: grey 4px 6px 10px;
+}
+.banner_button a{
+    width: 160px;
+    height: 40px;
+    background: var(--brand-color);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--titillium);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 62px ;
+    transition: 0.2s all linear;
+}
+.banner_button a:hover{
+    background:#576DB4;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2), 15px 15px 15px rgba(0,0,0,0.1), inset -5px -5px 5px rgba(255,255,255,0.2), inset 5px 5px 5px rgba(0,0,0,0.1);
+    color: whitesmoke;
+    font-weight: 700;
+    transform: scale(1.02);
+}   
+/* ------------ Banner Part End ------------ */
+/* ========= Tools Part Start ========= */
+#tools{
+    width: 100%;
+    background: url(../images/tools_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 120px 0;
+}
+.tools_cards{
+    margin-top: 80px;
+}
+.tools_item{
+    width: 280px;
+    background: #fff;
+    padding: 24px 24px 24px 20px;
+    border-radius: 5px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2), 15px 15px 15px rgba(0,0,0,0.1), inset -5px -5px 5px rgba(255,255,255,0.2), inset 5px 5px 5px rgba(0,0,0,0.1);
+    transition: 0.2s all linear;
+    cursor: pointer;
+}
+.tools_item:hover{
+    background: var(--brand-color);
+    transform: scale(1.1);
+    color: whitesmoke;
+}
+
+.tools_item .tools_text p{
+    font-size: 18px;
+    font-weight: 900;
+    font-family: var(--titillium);
+    text-align: center;
+    margin-top: 22px;
+    transition: 0.2s all linear;
+    justify-content: center;
+}
+
+
+/* ------------ Tools Part End ------------ */
+/* ========= Features Part Start ========= */
+#features{
+    width: 100%;
+    background: #FFFFFF;
+    padding: 120px 0;
+}
+.feature_slider{
+    position: relative;
+}
+.feature_slider .feature_slider_item{
+    width:100%;
+    padding: 40px 40px 50px 40px ;
+    border-radius: 17px;
+}
+.feature_slider_img img{
+    height: 240px;
+    border-radius: 17px;
+}
+.feature_text{
+    padding: 20px;
+}
+.feature_slider_item .feature_text h3{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: var(--titillium);
+    line-height: 24px;
+    text-align: center;
+    color:#1E1E1E ;
+    margin-top: 16px;
+}
+.feature_slider_item .feature_text p{
+    width:100%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--titillium);
+    line-height: 30px;
+    color:var(--secondary-color) ;
+    margin: 20px 0;
+    text-align:justify;
+}
+.feature_button a{
+    width: 90% ;
+    height: 35px;
+    background: var(--primary-color);
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--titillium);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.slick-center{
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2), 15px 15px 15px rgba(0,0,0,0.1), inset -5px -5px 5px rgba(255,255,255,0.2), inset 5px 5px 5px rgba(0,0,0,0.1);
+    border-radius: 17px;
+    margin-bottom: 50px;
+}
+.slick-center .feature_button a{
+    background: var(--brand-color);
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2), 15px 15px 15px rgba(0,0,0,0.1), inset -5px -5px 5px rgba(255,255,255,0.2), inset 5px 5px 5px rgba(0,0,0,0.1);
+}
+.prevarrow, .nextarrow{
+    height: 40px;
+    width: 40px;
+    background: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    z-index:999;
+    top: 50%;
+    opacity: 0;
+    visibility: 0;
+    transition: 0.3s all linear;
+}
+.nextarrow{
+    right: 0;
+}
+.feature_slider:hover .prevarrow,
+.feature_slider:hover .nextarrow{
+    opacity: 1;
+    visibility: visible;
+}
+/* ------------ Features Part End ------------ */
+/* ========= Choose Part Start ========= */
+#choose{
+    width: 100%;
+    background: url(../images/choose_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+}
+.choose_item{
+    width: 90%;
+    padding: 40px 50px 50px 30px;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    transition: 0.2s all linear;
+    cursor: pointer;
+}
+.choose_icon{
+    height: 35px;
+}
+.choose_text{
+    margin-left: 15px;
+}
+.choose_text h3{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: var(--titillium);
+    color: var(--primary-color);
+}
+.choose_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--titillium);
+    color: var(--primary-color);
+    margin-top: 18px;
+}
+.choose_item:hover{
+    transform: scale(1.1);
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2), 15px 15px 15px rgba(0,0,0,0.1), inset -5px -5px 5px rgba(255,255,255,0.2), inset 5px 5px 5px rgba(0,0,0,0.1);
+}
+/* ------------ Choose Part End ------------ */
+/* ========= Works Part Start ========= */
+#works{
+    width: 100%;
+    padding: 100px 0;
+    background: url(../images/tools_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.works_text_item{
+    width: 445px ;
+    display: flex;
+    margin-top: 44px;
+}
+.works_text_item .works_number h4{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--titillium);
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 40px;
+}
+.works_text_item p{
+    width: 350px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--titillium);
+    color: var(--primary-color);
+    margin-left:17px ;
+}
+.works_text_item p span{
+    display: block;
+}
+.works_video{
+    width: 550px;
+    padding-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+.works_video video{
+    width:550px;
+    height:416px;
+    border-radius: 30px;
+}
+/* ------------ Works Part End ------------ */
+
+/* ========= Download Part Start ========= */
+#downloads{
+    width: 100%;
+    padding: 0;
+    background: url(../images/bg2.jpg);
+}
+.row .download_text h3{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: var(--titillium);
+    color: var(--brand-color); 
+    text-align: center;
+    padding-top: 50px;
+
+}
+.row .download_text h4{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: var(--titillium);
+    color: var(--primary-color); 
+    text-align: center;
+    padding-top: 5px;
+}
+
+.row .store_logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.row .store_logo a img{
+    width: 100%;
+    transition: 0.2s all linear;
+}
+
+.row .service img{
+    width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    margin-top: -50px;
+    position: relative;
+}
+
+
+/* ------------ Download Part End ------------ */
+/* ========= Footer Part Start ========= */
+footer{
+    width: 100%;
+    padding-top: 70px;
+    background: #1C1E2E;
+}
+.footer_left .footer_logo img{
+    height: 60px;
+}
+.footer_left .footer_text p{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--titillium);
+    color: #fff;
+    text-align: justify;
+    margin-top: 30px;
+}
+.footer_left .footer_text p span{
+    display: block;
+    margin-top: 50px;
+}
+.footer_left .footer_social_icon ul{
+    width: 150px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_left .footer_social_icon ul li a{
+    font-size: 25px;
+    color: #fff;
+    transition: 0.2s all linear;
+}
+.footer_left .footer_social_icon ul li a:hover{
+    color: #0866FF;
+}
+.footer_menu,
+.footer_form{
+    margin-top: 30px;
+}
+.footer_menu h4,
+.footer_form h4{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: var(--titillium);
+    color: #fff;
+}
+.footer_menu ul,
+.footer_form form{
+    width: 100%;
+    margin-top: 30px;
+}
+.footer_menu ul li a{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--titillium);
+    color: #fff;
+    line-height: 32px;
+    transition: 0.2s all linear;
+}
+.footer_menu ul li a:hover{
+    color: var(--brand-color);
+}
+.footer_form form input {
+    width: 100%;
+    height: 40px;
+    background: #3F3F41;
+    border: none;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--titillium);
+    color: #fff;
+}
+.footer_form form textarea{
+    width: 100%;
+    height: 100px;
+    background: #3F3F41;
+    border-radius: 15px;
+    padding: 10px 0 0 20px;
+    border: none;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--titillium);
+    color: #fff;
+}
+.footer_form form input::placeholder,
+.footer_form form textarea::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--titillium);
+    color: #fff;
+}
+.footer_form form button{
+    display: block;
+    width: 150px;
+    height: 40px;
+    background: var(--brand-color);
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--titillium);
+    color: #fff;
+    margin: 10px auto 0 auto;
+    transition: 0.2s all linear;
+}
+.footer_form form button:hover{
+    background: #fff;
+    color: var(--brand-color);
+    transform: scale(1.1);
+}
+.copywrite{
+    width: 100%;
+    height: 100px ;
+    background: #000;
+    margin-top: 100px;
+}
+.copywrite_content{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copywrite_text h6{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--titillium);
+    color: #fff;
+}
+
+/* ------------ Footer Part End ------------ */
