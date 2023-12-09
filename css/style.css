@@ -1,5 +1,5 @@
 /* ========= Font Link Part Start ========= */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Noto+Sans+Bengali:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
 /* ------------ Font Link Part End ------------ */
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 :root{
     --primary-color: #3F3F41;
     --brand-color:#D31E28; 
-    --titillium: 'Noto Sans Bengali', sans-serif;
+    --titillium: 'Montserrat', sans-serif;
 }
 /* ------------ Variable Part End ------------ */
 /* =========== back to top button start ============== */
@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 /* ------------ back to top button end */
 /* ========= Menubar Part Start ========= */
 #menubar{
-    background: #F1F1F1 !important;
+    background-color: whitesmoke !important;
 }
 .menubar .logo{
     width: 160px;
@@ -109,6 +109,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 .menu_item li{
     position: relative;
     padding: 0 12px;
+    text-transform: uppercase;
 }
 .menu_item li::after{
     content: ' ';
@@ -134,28 +135,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 .menu_item li a:hover{
     color: var(--brand-color) !important;
 }
-.get_button a{
-    width: 130px;
-    height: 40px;
-    background: var(--primary-color);
-    border-radius: 20px;
-    font-size: 18px;
-    font-weight: 600;
-    font-family: var(--titillium);
-    color: #fff ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.2s all linear;
-    margin: 0 auto;
-}
-.get_button a:hover{
-    background: transparent;
-    box-shadow: -15px -15px 15px rgba(255,255,255,0.2), 15px 15px 15px rgba(0,0,0,0.1), inset -5px -5px 5px rgba(255,255,255,0.2), inset 5px 5px 5px rgba(0,0,0,0.1);
-    color: var(--primary-color);
-    font-weight: 700;
-    transform: scale(1.05);
-}
+
 .sticky_navbar{
     width: 100%;
     position: fixed;
@@ -182,14 +162,14 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 120px 0;
+    padding: 240px 0;
 }
+
 .banner_text h3{
     font-size: 22px;
     font-weight: 600;
     font-family: var(--titillium);
     color: var(--brand-color);
-
 }
 .banner_text h1{
     font-size: 100px;
@@ -264,7 +244,10 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 }
 .tools_cards{
     margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
 }
+
 .tools_item{
     width: 280px;
     background: #fff;
@@ -473,51 +456,45 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 }
 /* ------------ Works Part End ------------ */
 
-/* ========= Download Part Start ========= */
+/* ========= Service Part Start ========= */
 #downloads{
     width: 100%;
     padding: 0;
     background: url(../images/bg2.jpg);
 }
 .row .download_text h3{
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 600;
     font-family: var(--titillium);
     color: var(--brand-color); 
-    text-align: center;
+    text-align: left;
     padding-top: 50px;
 
 }
 .row .download_text h4{
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 600;
     font-family: var(--titillium);
     color: var(--primary-color); 
-    text-align: center;
+    text-align: left;
     padding-top: 5px;
 }
-
-.row .store_logo{
-    width: 100%;
+.row .service{
     display: flex;
-    justify-content: center;
-    padding-top: 50px;
 }
-.row .store_logo a img{
-    width: 100%;
-    transition: 0.2s all linear;
-}
-
 .row .service img{
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
     overflow-clip-margin: content-box;
     overflow: clip;
-    margin-top: -50px;
+    margin-top: -132px;
+    margin-bottom: -72px;
+    margin-left: 848px;
     position: relative;
 }
 
 
-/* ------------ Download Part End ------------ */
+/* ------------ Service Part End ------------ */
 /* ========= Footer Part Start ========= */
 footer{
     width: 100%;
