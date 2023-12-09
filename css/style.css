@@ -419,6 +419,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     width: 445px ;
     display: flex;
     margin-top: 44px;
+    margin-left: 100px;
 }
 .works_text_item .works_number h4{
     width: 40px;
