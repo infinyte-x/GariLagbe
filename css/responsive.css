@@ -5,7 +5,8 @@
 }
 .common_heading p{
     font-size: 12px ;
-    margin-bottom: 30px;
+    font-weight: 400;
+    margin-bottom: 12px;
 }
 .common_heading p span{
     display: inline;
@@ -39,23 +40,33 @@
 }
 /* ------Banner Part Start----- */
 #banner{
-    padding: 50px 0;
+    padding: 50px 15px;
 }
 .banner_text h3 {
-    width: 100%;
-    font-size: 12px;
+    max-width: 100%;
+    font-size: 28px;
+    padding: 5px;
+    color: black !important;
+    text-shadow:#000000;
 }
 .banner_text h1 {
-    width: 100%;
-    font-size: 38px;
+    max-width: 100%;
+    font-size: 55px;
+    font-family: 'Font Awesome 6 Free';
+    text-align: start;
 }
 .banner_text h2 {
     width: 100%;
     font-size: 20px;
 }
+.banner_text h4 {
+    max-width: 100%;
+    font-size: 24px;
+    margin-top: auto;
+}
 .banner_text p {
     width: 100%;
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 20px;
 }
 .banner_button a {
@@ -74,16 +85,9 @@
 .tools_cards{
     margin-top: 40px;
 }
-/* ------ Choose Part Start ------ */
-#choose{
-    padding: 70px 0;
-}
-.choose_item{
-    padding: 20px;
-}
 /* ------ Works Part Start ------- */
 #works{
-    padding: 50px 0;
+    padding: 35px 0;
 }
 .works_text_item {
     width: 100%;
@@ -101,87 +105,46 @@
     margin-left: 10px;
 }
 .works_video video {
-    width: 300px;
+    max-width: 300px;
     height: 230px;
-    border-radius: 15px;
+    border-radius: 15px 15px;
 }
 .works_video{
-    width: 300px;
+    max-width: 300px;
     margin: 0 auto;
 }
-/* ------ Reel Part Start ------- */
-#reel{
-    padding: 50px 0;
-}
-.reel_phone video {
-    width: 219px;
-    height: 395px;
-    border-radius: 20px;
-}
-.reel_phone{
-    width: 225px;
-    margin: 0 auto;
-}
-.reel_phone img {
-    width: 225px;
-    height: 400px;
-    left: 0;
-    top: 0;
-}
-.reel_text_item {
-    width: 100%;
-}
-.reel_text_item h3 {
-    font-size: 18px;
-    text-align: center;
-}
-.reel_text_item p {
-    font-size: 12px;
-    text-align: center;
-}
-/* ------ History Part Start ----- */
-#history{
-    padding: 50px 0;
-}
-.history_counter {
-    flex-direction: column;
-}
-.counter_number_icon {
-    display: flex;
-    justify-content: center;
-}
-.counter_number_icon .count,
-.counter_text span {
-    font-size: 30px;
-}
-.history_counter .line {
-    height: 2px;
-    width: 70%;
-    margin: 30px auto;
-}
+
 /* ----- Download Part Start ----- */
 #downloads{
-    padding: 50px 0;
+    padding: 20px 0;
 }
 .row {
     display: flex;
 }
 .row .download_text h3 {
-    font-size: 16px;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 10px;
 }
 .row .download_text h4 {
-    font-size: 11px;
+    font-size: 16px;
+    text-align: center;
 }
-.row .service img{
-    max-width: 35%;
+.row .service img {
+    max-width: 75%;
     overflow-clip-margin: content-box;
     overflow: clip;
-    margin-top: -200px;
-    margin-bottom: -72px;
-    margin-left: -212px;
+    margin-top: -2px;
+    margin-bottom: -92px;
+    margin-left: 50px;
     position: relative;
 }
 }
+/* ------ Footer Part Start-------- */
+#features{
+    padding: 40px 0;
+}
+
 /* ------ Footer Part Start-------- */
 .footer_logo{
     width: 100%;
@@ -332,26 +295,7 @@
         font-size: 14px;
         text-align: center;
     }
-/* ------ History Part Start ----- */
-    #history{
-        padding: 70px 0;
-    }
-    .history_counter {
-        flex-direction: column;
-    }
-    .counter_number_icon {
-        display: flex;
-        justify-content: center;
-    }
-    .counter_number_icon .count,
-    .counter_text span {
-        font-size: 40px;
-    }
-    .history_counter .line {
-        height: 2px;
-        width: 70%;
-        margin: 30px auto;
-    }
+
 /* ----- Download Part Start ----- */
     #downloads{
         padding: 25px 0;
@@ -385,6 +329,11 @@
 }
 
 /* ------ Footer Part Start-------- */
+.footer{
+    width: 100%;
+    padding-top: -71px;
+    background: linear-gradient(327deg, #576DB4 , transparent);
+}
 .footer_logo{
         width: 100%;
         display: flex;

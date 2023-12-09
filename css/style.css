@@ -498,8 +498,8 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 /* ========= Footer Part Start ========= */
 footer{
     width: 100%;
-    padding-top: 70px;
-    background: #1C1E2E;
+    padding-top: 15px;
+    background: linear-gradient(327deg, #576DB4 , transparent);
 }
 .footer_left .footer_logo img{
     height: 60px;
@@ -509,9 +509,10 @@ footer{
     font-size: 16px;
     font-weight: 400;
     font-family: var(--titillium);
-    color: #fff;
+    color: var(--primary-color);
     text-align: justify;
-    margin-top: 30px;
+    margin-top: 15px;
+    text-transform: uppercase;
 }
 .footer_left .footer_text p span{
     display: block;
@@ -525,11 +526,11 @@ footer{
 }
 .footer_left .footer_social_icon ul li a{
     font-size: 25px;
-    color: #fff;
+    color: var(--primary-color);
     transition: 0.2s all linear;
 }
 .footer_left .footer_social_icon ul li a:hover{
-    color: #0866FF;
+    color: var(--brand-color);
 }
 .footer_menu,
 .footer_form{
@@ -540,18 +541,18 @@ footer{
     font-size: 22px;
     font-weight: 600;
     font-family: var(--titillium);
-    color: #fff;
+    color: var(--primary-color);
 }
 .footer_menu ul,
 .footer_form form{
     width: 100%;
-    margin-top: 30px;
+    margin-top: 18px;
 }
 .footer_menu ul li a{
     font-size: 16px;
     font-weight: 600;
     font-family: var(--titillium);
-    color: #fff;
+    color: var(--primary-color);
     line-height: 32px;
     transition: 0.2s all linear;
 }
@@ -561,7 +562,7 @@ footer{
 .footer_form form input {
     width: 100%;
     height: 40px;
-    background: #3F3F41;
+    background: var(--primary-color);;
     border: none;
     border-radius: 30px;
     padding-left: 20px;
@@ -624,7 +625,7 @@ footer{
     align-items: center;
 }
 .copywrite_text h6{
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
     font-family: var(--titillium);
     color: #fff;
