@@ -185,7 +185,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 240px 0;
+    padding: 185px 0;
 }
 
 .banner_text h1{
@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     font-size: 32px;
     font-weight: 700;
     font-family: var(--titillium);
-    color: whitesmoke;
+    color: whitesmoke !important;
     margin-left: 10px;
     text-shadow: #000000 4px 4px 4px;
 }
@@ -617,3 +617,90 @@ footer{
 }
 
 /* ------------ Footer Part End ------------ */
+
+
+/* ====================== Carlist Start ===================== */
+#carlist{
+    padding: 80px 0;
+}
+a{
+    color: unset;
+    text-decoration: none;
+}
+/* .container{
+    width: 900px;
+    margin: auto;
+    max-width: 90vw;
+    text-align: center;
+    padding-top: 10px;
+} */
+.title{
+    font-size: xx-large;
+    padding: 20px 0;
+}
+.listProduct .item img{
+    width: 90%;
+    filter: drop-shadow(0 50px 20px #0009);
+}
+.listProduct{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.listProduct .item{
+    background-color: #EEEEE6;
+    padding: 20px;
+    border-radius: 20px;
+}
+.listProduct .item h2{
+    font-weight: 500;
+    font-size: large;
+}
+.listProduct .item .price{
+    letter-spacing: 7px;
+    font-size: small;
+}
+/* ====================== detail page  =====================*/
+/* // ipad */
+@media only screen and (max-width: 992px) {
+    .listProduct{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .detail{
+        grid-template-columns:  40% 1fr;
+    }
+}
+
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+    .listProduct{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .detail{
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+    .detail .image img{
+        width: unset;
+        height: 40vh;
+    } 
+    .detail .name{
+        font-size: x-large;
+        margin: 0;
+
+    }
+    .detail .buttons button{
+        font-size: small;
+    }
+    .detail .buttons{
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+/* ====================== Carlist Start ===================== */
