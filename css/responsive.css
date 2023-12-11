@@ -17,8 +17,8 @@
     background: #3f3f41;
 }
 .navbar-toggler{
-    border: 1px solid #2c2c2c;
-    color:#000000 ;
+    border: 2px solid #ffffff;
+    color:#f8f8f8 ;
 }
 .navbar-toggler:focus {
     box-shadow: none;
@@ -32,7 +32,7 @@
     background-color: transparent;
 }
 .menu_item li a{
-    color: #383838 !important;
+    color: snow !important;
     text-transform: uppercase;
 }
 .menu_item li a:hover{
@@ -190,14 +190,15 @@
 /* ------- Navbar Part Start-------- */
     .dropdown-menu.show {
         display: block;
-        background: #3f3f41;
+    
     }
     .navbar-toggler{
-        border: 1px solid #F1595A;
-        color:#F1595A ;
+        border: 1px solid black;
+        color: snow ;
     }
     .navbar-toggler:focus {
         box-shadow: none;
+        color: snow;
     }
     .show{
         padding-bottom: 20px;

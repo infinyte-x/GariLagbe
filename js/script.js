@@ -55,7 +55,7 @@ let top_button  =document.querySelector(".top_button")
 window.addEventListener("scroll", ()=>{
   let scrolling  = this.scrollY;
   console.log(scrolling)
-  if(scrolling > 300){
+  if(scrolling > 800){
     top_button.classList.add("go_top");
   }
   else{
