@@ -55,8 +55,9 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 /* ------------ Common CSS Part End ------------ */
 /* ========= Variable Part Start ========= */
 :root{
-    --primary-color: #3F3F41;
-    --brand-color:#ff497c; 
+    --primary-color: #303030;
+    --brand-color: #FF8C00;
+    --brand-aux: #00191F; 
     --titillium: 'Montserrat', sans-serif;
 }
 /* ------------ Variable Part End ------------ */
@@ -64,7 +65,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 .top_button{
     height: 50px;
     width: 50px;
-    background: #fff;
+    background: var(--brand-aux);
     border-radius: 50px;
     font-size: 18px;
     color: var(--brand-color);
@@ -72,7 +73,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     justify-content: center;
     align-items: center;
     transition: 0.2s all linear;
-    border: 5px solid #ff497c;
+    /* border: 3px solid var(--brand-color); */
     position: fixed;
     bottom: 10%;
     right: 5%;
@@ -82,8 +83,9 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 }
 .top_button:hover{
     background: var(--brand-color);
-    color: #fff;
+    color: var(--brand-aux);
     cursor: pointer;
+    scale: 1.2;
 }
 .go_top{
     visibility: visible;
@@ -98,10 +100,21 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
         bottom: 10%;
     }
 }
+
+/* ============ navbar =================*/
+.navbar-text,
+.nav-link,
+.nav-link.active
+.navbar-nav .nav-link.show{
+    color: whitesmoke !important;
+}
+
+
+
 /* ------------ back to top button end */
 /* ========= Menubar Part Start ========= */
 #menubar{
-    background-color: whitesmoke;
+    background-color: var(--brand-aux);
 }
 .menubar .logo{
     width: 160px;
@@ -109,11 +122,11 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 .menu_item li{
     padding: 0 12px;
     text-transform: uppercase;
-    color: black;
+    color: rgb(231, 231, 231);
 }
 
 .menu_item li a{
-    font-size: 18px ;
+    font-size: 14px ;
     font-weight: 600;
     font-family: var(--titillium);
     color: whitesmoke;
@@ -125,14 +138,12 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 
 .menu_item:hover li a{
     transform: scale(1.15);
-    opacity: 0.5;
-    filter: blur(5px);
+    opacity: 0.3;
 }
 .menu_item li a:hover{
     color: whitesmoke;
     transform: scale(1.25);
     opacity: 1;
-    filter: blur(0);
 }
 
 .menu_item li a:before{
@@ -165,6 +176,28 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     animation: nav_ani 1s;
 }
 
+.get_button a {
+    width: 150px;
+    height: 40px;
+    /* padding: 10px 00px 10px 0px; */
+    background: var(--brand-color);
+    border-radius: 1px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: var(--titillium);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.25s all linear;
+    margin: 0 auto;
+}
+.get_button a:hover {
+    color: white;
+    font-weight:400;
+    transform: scale(1.2);
+}
+
 
 
 
@@ -189,8 +222,8 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 }
 
 .banner_text h1{
-    font-size: 140px;
-    font-weight: 900;
+    font-size: 100px;
+    font-weight: 800;
     font-family: var(--titillium);
     color: var(--brand-color);
     margin:20px 0 20px 0;
@@ -199,7 +232,8 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 }
 
 .banner_text h1 span{
-    color: #576DB4;
+    color: white;
+    text-shadow: #8f8f8f 4px 4px 4px;
 }
 
 .banner_text h2 span{
@@ -238,9 +272,9 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     width: 160px;
     height: 40px;
     background: var(--brand-color);
-    border-radius: 5px;
+    border-radius: 1px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     font-family: var(--titillium);
     color: #fff;
     display: flex;
@@ -251,7 +285,6 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     transition: 0.2s all linear;
 }
 .banner_button a:hover{
-    background:#576DB4;
     color: whitesmoke;
     font-weight: 500;
     transform: scale(1.1);
@@ -635,12 +668,28 @@ a{
     padding-top: 10px;
 } */
 .title{
-    font-size: xx-large;
-    padding: 20px 0;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    text-align: center;
+    place-items: center;
+
 }
 .listProduct .item img{
-    width: 90%;
-    filter: drop-shadow(0 50px 20px #0009);
+    max-width: 100%;
+    filter: drop-shadow(0 50px 20px rgba(99, 99, 99, 0.6));
+    transition: 300ms all linear;
+}
+
+.listProduct .item:hover{
+    transform: scale(1.02);
+    filter: drop-shadow(0 5px 5px rgba(129, 124, 124, 0.6));
+}
+.listProduct .item img:hover{
+    transform: scale(1.1);
 }
 .listProduct{
     display: grid;
@@ -648,7 +697,8 @@ a{
     gap: 20px;
 }
 .listProduct .item{
-    background-color: #EEEEE6;
+    background-color: rgba(229, 233, 248, 1);
+    backdrop-filter: blur(30px);
     padding: 20px;
     border-radius: 20px;
 }
@@ -657,8 +707,9 @@ a{
     font-size: large;
 }
 .listProduct .item .price{
-    letter-spacing: 7px;
-    font-size: small;
+    text-align: end;
+    letter-spacing: 15px;
+    font-size: 18px;
 }
 /* ====================== detail page  =====================*/
 /* // ipad */
