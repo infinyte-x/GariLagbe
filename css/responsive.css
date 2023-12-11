@@ -1,5 +1,8 @@
 @media (max-width: 575.98px){
 /* ------ Common CSS -------- */
+.navbar-collapse{
+    margin-left: auto;
+}
 .common_heading h3{
     font-size: 22px ;
 }
@@ -128,6 +131,10 @@
     text-align: center;
     padding-top: 10px;
 }
+.row .download_text a {
+    margin-left: 120px;
+}
+
 .row .download_text h4 {
     font-size: 16px;
     text-align: center;
@@ -136,9 +143,9 @@
     max-width: 75%;
     overflow-clip-margin: content-box;
     overflow: clip;
-    margin-top: -2px;
-    margin-bottom: -92px;
-    margin-left: 50px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: -20px;
     position: relative;
 }
 }
@@ -156,10 +163,12 @@
 }
 .footer_left .footer_text p {
     width: 100%;
-    text-align: center;
+    text-align: left;
+    padding: 16px;
 }
 .footer_left .footer_text p span {
     text-align: center;
+    margin-top: 30px;
 }
 .footer_left .footer_social_icon ul {
     margin: 20px auto 20px auto;
@@ -460,28 +469,17 @@
         .copywrite_text h6 {
             font-size: 16px;
         }
+        .sidenav {
+        top: 32%;
+        right: 12.5%;
     }
-
-@media (min-width:992px) {
-    .row .service img{
+        .row .service img {
         max-width: 100%;
         overflow-clip-margin: content-box;
         overflow: clip;
-        margin-top: -200px;
-        margin-bottom: -72px;
-        margin-left: 642px;
-        position: relative;
-    }
-}
-
-@media (min-width: 1192px) {
-    .row .service img{
-        max-width: 100%;
-        overflow-clip-margin: content-box;
-        overflow: clip;
-        margin-top: -200px;
-        margin-bottom: -72px;
-        margin-left: 784px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 44px;
         position: relative;
     }
 }
