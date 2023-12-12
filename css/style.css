@@ -970,13 +970,13 @@ a{
 }
 .listProduct .item img{
     max-width: 100%;
-    filter: drop-shadow(0 50px 20px rgba(99, 99, 99, 0.6));
+    filter: drop-shadow(0 50px 20px rgba(255, 140, 0, 0.05));
     transition: 300ms all linear;
 }
 
 .listProduct .item:hover{
-    transform: scale(1.02);
-    filter: drop-shadow(0 5px 5px rgba(129, 124, 124, 0.6));
+    transform: scale(1.05);
+    filter: drop-shadow(0 50px 20px rgba(168, 168, 168, 0.3));
 }
 .listProduct .item img:hover{
     transform: scale(1.1);
@@ -988,12 +988,13 @@ a{
     padding: 20px 20px;
 
 }
-.listProduct .item{
-    background-color: rgba(229, 233, 248, .9);
+.listProduct .item {
+    background-color: rgb(0 34 39 / 60%);
     padding: 20px;
     border-radius: 20px;
     max-width: 100%;
     text-align: center;
+    color: antiquewhite;
 }
 .listProduct .item h2{
     font-weight: 500;
@@ -1039,7 +1040,14 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
 
 .detail .image img{
     width: 100%;
+    transition: all linear;
 }
+.detail .image img:hover{
+    transform: translate(-5px);
+    scale: 1.15;
+    filter: drop-shadow(5px solid black);
+}
+
 .detail .image{
     position: relative;
 }
