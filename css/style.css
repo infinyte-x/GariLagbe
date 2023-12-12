@@ -780,8 +780,8 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     font-weight: 600;
     font-family: var(--titillium);
     color: var(--brand-color); 
-    text-align: left;
-    padding-left: 124px;
+    text-align:  center;
+    padding-left: 0;
 
 }
 .row .download_text h4{
@@ -789,9 +789,8 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     font-weight: 600;
     font-family: var(--titillium);
     color: var(--primary-color); 
-    text-align: left;
-    padding-top: 10px;
-    padding-left: 124px;
+    text-align: center
+    
 }
 .row .service{
     display: flex;
@@ -1118,3 +1117,115 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     vertical-align: middle;
     max-width: 80% !important;
 } */
+
+
+/* ================= crm1 part start ================== */
+#crm1 {
+    width: 100%;
+    padding: 100px 0;
+    background: rgb(0,82,83);background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* display: flex; */
+}
+.coltext {
+    /* display: flex; */
+    margin: 0 auto;
+    background: rgb(0,82,83);background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
+    backdrop-filter: blur(30px);
+}
+
+.coltext h1{
+    font-size: 64px;
+    margin-top: 20px;
+    text-align: right;
+    padding-left: 65px;
+    color: #eee;
+    padding-right: 64px;
+}
+.coltext h1 span{
+    background-color: var(--brand-color);
+}
+.coltext h5 {
+        font-size: 36px;
+        margin-top: 7px;
+        text-align: right;
+        color: var(--brand-color);
+        padding-right: 64px;
+        line-height: 20px;
+    
+}
+
+.coltext p{
+    font-size: 36px;
+    margin-top: 50px;
+    color: antiquewhite;
+    /* margin-left: 50px; */
+    text-align: center;
+}
+
+
+#crm1 .row2{
+    display: flex;
+}
+
+.coltext .crmbtn a {
+    width: 200px;
+    height: 64px;
+    /* background: var(--brand-color); */
+    /* border-radius: 64px; */
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--titillium);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 92px;
+    margin-left: 310px;
+    transition: 0.2s all linear;
+    border: #eee 1px solid;
+    /* box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2); */
+}
+
+
+.coltext .crmbtn a:hover{
+    color: white;
+    border: #eee 1px solid;
+    font-weight: 500;
+    transform: scale(1.25);
+    background-color: transparent;
+}
+
+
+
+.row2 .imga img {
+    max-width: 400px;
+    align-items: start;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.row2 .imga img:hover {
+    scale: 1.1;
+}
+
+
+
+
+/* ================= crm1 part start ================== */
+
+/* ================= crm1 part start ================== */
+
+
+
+
+
+
+
+
+
+
+
+/* ================= crm1 part start ================== */
