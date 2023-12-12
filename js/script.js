@@ -107,9 +107,9 @@ let product = null;
         let productId =  new URLSearchParams(window.location.search).get('id');
         let thisProduct = products.filter(value => value.id == productId)[0];
         //if there is no product with id = productId => return to home page
-        if(!thisProduct){
-            window.location.href = "/";
-        }
+        // if(!thisProduct){
+        //     window.location.href = "/";
+        // }
 
         detail.querySelector('.image img').src = thisProduct.image;
         detail.querySelector('.name').innerText = thisProduct.name;
