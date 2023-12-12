@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 /* ------------ Common CSS Part End ------------ */
 /* ========= Variable Part Start ========= */
 :root{
-    --primary-color: #303030;
+    --primary-color: #222222;
     --brand-color: #FF8C00;
     --brand-aux: #00191F; 
     --titillium: 'Montserrat', sans-serif;
@@ -204,9 +204,6 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     transform: scale(1.2);
 }
 
-
-
-
 @keyframes nav_ani{
     from{
         top: -10%;
@@ -224,19 +221,27 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 216px;
+    padding: 240px;
 }
 
-.banner_text h1{
+#banner2 {
+    width: 100%;
+    background: url(../images/home-2-img-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 240px;
+}
+
+.banner_text h1 {
     font-size: 100px;
     font-weight: 800;
     font-family: var(--titillium);
     color: var(--brand-color);
-    margin:20px 0 20px 0;
-    padding-bottom: 30px;
+    margin: 0 auto;
+    padding-bottom: 18px;
     text-shadow: #000000 4px 4px 4px;
 }
-
 .banner_text h1 span{
     color: white;
     text-shadow: #8f8f8f 4px 4px 4px;
@@ -295,7 +300,31 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     color: white;
     font-weight: 500;
     transform: scale(1.2);
-}   
+}
+
+.banner_button1 a{
+    width: 220px;
+    height: 48px;
+    background: var(--brand-color);
+    border-radius: 1px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--titillium);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px ;
+    margin-left: 10px;
+    transition: 0.2s all linear;
+}
+.banner_button1 a:hover{
+    color: white;
+    font-weight: 500;
+    transform: scale(1.2);
+}
+
+
 /* ------------ Banner Part End ------------ */
 /* =========Banner Part Start ========= */
 #banner1{
@@ -373,27 +402,38 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
-    width: 450px;
+    width: 400px;
     height: 400px;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(20px);
+    background-color: rgba(0, 25, 31, 0.2);
+    backdrop-filter: blur(25px);
 }
 
 .sidenav h3 {
     color: snow;
     font-size: 32px;
+    text-align: center;
     text-shadow: #000000 1px 1px 4px;
+}
+.sidenav h3 span{
+    color: var(--brand-color);
+    font-weight: 400;
+
+
 }
 .sidenav p {
     color: snow;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
     padding: 10px 20px;
     margin-top: 10px;
-    text-shadow: #000000 1px 1px 4px;
+    text-shadow: #000000 1px 1px 1px;
     text-align: justify;
+}
+.sidenav p span {
+    color: var(--brand-color);
+    font-weight: 500;
 }
 
 .sidenav .navbtn{
@@ -408,10 +448,91 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     background-color: #ff8c00;
     /* margin-bottom: 25%; */
     padding: 10px 40px;
-    text-align: left;
+    text-align: center;
     line-height: 40px;
     color: azure;
 }
+
+
+
+
+
+/* =============== Contact Page =============== */
+#banner2 .sidenav {
+    display: grid;
+    z-index: 3;
+    position: absolute;
+    top: 32%;
+    right: 12.5%;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: rgba(0, 25, 31, 0.2);
+    backdrop-filter: blur(15px);
+}
+
+.sidenav h3 {
+    color: snow;
+    font-size: 32px;
+    text-align: center;
+    text-shadow: #000000 1px 1px 4px;
+}
+.sidenav h3 span{
+    color: var(--brand-color);
+    font-weight: 400;
+
+    
+}
+.sidenav p {
+    color: snow;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-shadow: #000000 1px 1px 1px;
+    text-align: justify;
+}
+.sidenav p span {
+    color: var(--brand-color);
+    font-weight: 500;
+}
+
+.sidenav .navbtn{
+    top: 0;
+    left: 0;
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 370px;
+    height: 60px;
+    place-items: center;
+    background-color: #ff8c00;
+    /* margin-bottom: 25%; */
+    padding: 10px 40px;
+    text-align: center;
+    line-height: 40px;
+    color: azure;
+}
+
+
+
+
+
+/* =============== Contact Page =============== */
+
+
+
+
+
+
+
+
+
 
 
 
@@ -865,10 +986,10 @@ a{
 }
 .listProduct .item{
     background-color: rgba(229, 233, 248, .9);
-    backdrop-filter: blur(30px);
     padding: 20px;
     border-radius: 20px;
     max-width: 100%;
+    text-align: center;
 }
 .listProduct .item h2{
     font-weight: 500;
@@ -882,8 +1003,6 @@ a{
     right: 5%
 }
 /* ====================== detail page  =====================*/
-
-
 
 #carlist .detail {
     display: grid;
@@ -912,7 +1031,6 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     font-weight: 600;
     font-size: 40px;
 }
-
 
 
 .detail .image img{
