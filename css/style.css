@@ -754,20 +754,20 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     justify-content: center;
 }
 .row .download_text a {
-    margin-left: 22%;
-        width: 150px;
-        height: 48px;
-        background: var(--brand-color);
-        border-radius: 1px;
-        font-size: 20px;
-        font-weight: 500;
-        font-family: var(--titillium);
-        color: #fff;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        transition: 0.25s all linear;
-        margin-top: -40px;
+    margin-left: 25%;
+    width: 150px;
+    height: 48px;
+    background: var(--brand-color);
+    border-radius: 1px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--titillium);
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.25s all linear;
+    margin-top: -40px;
 }
 .download_text a:hover{
     color: white;
@@ -783,13 +783,14 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     /* text-align: center; */
     padding-left: 10px;
 }
-.row .download_text h4{
+.row .download_text h4 {
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 500;
     font-family: var(--titillium);
-    color: var(--primary-color); 
-    text-align: center
-    
+    color: var(--primary-color);
+    /* text-align: center; */
+    padding-left: 12px;
+    padding-top: 18px;
 }
 .row .service{
     display: flex;
