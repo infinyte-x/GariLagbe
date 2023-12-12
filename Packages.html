@@ -194,13 +194,12 @@
             function showDetail(){
         // remove datas default from HTML
             let detail = document.querySelector('.detail');
-            let listProduct = document.querySelector('.listProduct');
             let productId =  new URLSearchParams(window.location.search).get('id');
-            let thisProduct = products.filter(value => value.id == productId)[0];
-            // //if there is no product with id = productId => return to home page
-            if(!thisProduct){
-                window.location.href = "/Packages.html?id=1";
-            }
+            // let thisProduct = products.filter(value => value.id == productId)[0];
+            // // //if there is no product with id = productId => return to home page
+            // if(!thisProduct){
+            //     window.location.href = "/Packages.html?id=1";
+            // }
     
             detail.querySelector('.image img').src = thisProduct.image;
             detail.querySelector('.name').innerText = thisProduct.name;
