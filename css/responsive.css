@@ -14,6 +14,50 @@
 .common_heading p span{
     display: inline;
 }
+
+
+.listProduct{
+    grid-template-columns: 1fr;
+}
+.detail .description {
+    font-weight: 500;
+    padding: 5px;
+}
+
+.listProduct .item h2 {
+    font-weight: 500;
+    font-size: large;
+    text-align: center;
+}
+#carlist .detail {
+    display: grid;
+    grid-template-columns: 1fr;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    border-radius: 24px;
+    background-color: #ffffff6e;
+    backdrop-filter: blur(30px);
+    /* gap: 50px; */
+    text-align: left;
+    box-shadow: #000;
+    /* padding: 5px 0; */
+    text-align: center;
+}
+.detail .image img{
+    max-width: 100%;
+} 
+.detail .name{
+    font-size: x-large;
+    margin: 0;
+
+}
+.detail .buttons button{
+    font-size: small;
+}
+.detail .buttons{
+    justify-content: center;
+}
+
+
 /* ------- Navbar Part Start-------- */
 .dropdown-menu.show {
     display: block;
@@ -130,14 +174,31 @@
     font-size: 22px;
     text-align: center;
     padding-top: 10px;
+    padding-left: 0;
 }
 .row .download_text a {
     margin-left: 120px;
 }
 
 .row .download_text h4 {
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-color);
+    font-family: sans-serif;
     text-align: center;
+    padding-top: 10px;
+    padding-left: 0;
+}
+
+.detail .buttons span {
+    background-color: var(--brand-aux);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 10px;
 }
 .row .service img {
     max-width: 75%;
@@ -148,7 +209,11 @@
     margin-bottom: -20px;
     position: relative;
 }
+.banner1_text h1{
+    text-align: center;
+    font-size: 60px;
 }
+
 /* ------ Footer Part Start-------- */
 #features{
     padding: 40px 0;
@@ -185,7 +250,7 @@
 .footer_form form{
     text-align: center;
 }
-
+}
 
 @media (min-width:576px) and (max-width: 767.98px) {
 /* ------ Common CSS -------- */
@@ -359,6 +424,7 @@
         display: block;
         background: #3f3f41;
     }
+    
     .navbar-toggler{
         border: 1px solid #D31E28;
         color:#D31E28 ;
@@ -381,12 +447,12 @@
         color:#D31E28 !important;
     }
     /* ----- Tools Part Start ----- */
-        .tools_item {
-            margin: 15px auto;
-        }
+    .tools_item {
+        margin: 15px auto;
+    }
      /* ------- Works Part Start ------ */
         .works_video{
-            width: 600pxpx;
+            width: 600px;
             margin: 0 auto;
         }
         .works_video video {
@@ -418,7 +484,7 @@
         padding-top: 10px;
         text-align:left;
         justify-content: first baseline;
-        }
+    }
     .row .download_text h4 {
         font-size: 16px;
         padding-top: 10px;

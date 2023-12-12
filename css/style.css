@@ -962,7 +962,7 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     width: 15px;
 }
 .detail .buttons span{
-    background-color: #555454;
+    background-color: var(--brand-aux);
     width: 30px;
     height: 30px;
     display: flex;
@@ -972,7 +972,7 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     margin-left: 20px;
 }
 .detail .buttons button:nth-child(2){
-    background-color: #2F2F2F;
+    background-color: var(--brand-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -980,43 +980,11 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     box-shadow: 0 10px 20px #2F2F2F77;
 }
 .detail .description {
-        font-weight: 400;
-        padding: 100px 100px 10px 0;
-}
-/* // ipad */
-@media only screen and (max-width: 992px) {
-    .listProduct{
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .detail{
-        grid-template-columns:  40% 1fr;
-    }
+    font-weight: 400;
+    padding: 100px 100px 10px 0;
 }
 
-
-/* mobile */
-@media only screen and (max-width: 768px) {
-    .listProduct{
-        grid-template-columns: 1fr;
-    }
-    .detail{
-        text-align: center;
-        grid-template-columns: 1fr;
-    }
-    .detail .image img{
-        max-width: 100%;
-    } 
-    .detail .name{
-        font-size: x-large;
-        margin: 0;
-
-    }
-    .detail .buttons button{
-        font-size: small;
-    }
-    .detail .buttons{
-        justify-content: center;
-    }
-}
-
-/* ====================== Carlist Start ===================== */
+/* .img, svg {
+    vertical-align: middle;
+    max-width: 80% !important;
+} */
