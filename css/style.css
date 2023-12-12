@@ -997,15 +997,14 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
 /* mobile */
 @media only screen and (max-width: 768px) {
     .listProduct{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
     }
     .detail{
         text-align: center;
         grid-template-columns: 1fr;
     }
     .detail .image img{
-        width: unset;
-        height: 40vh;
+        max-width: 100%;
     } 
     .detail .name{
         font-size: x-large;
@@ -1019,50 +1018,5 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
         justify-content: center;
     }
 }
-
-
-/* ======================= detail page ===================== */
-
-/* // ipad */
-@media only screen and (max-width: 992px) {
-    .listProduct{
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .detail{
-        grid-template-columns:  40% 1fr;
-    }
-}
-
-
-/* mobile */
-@media only screen and (max-width: 768px) {
-    .listProduct{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .detail{
-        text-align: center;
-        grid-template-columns: 1fr;
-    }
-    .detail .image img{
-        width: unset;
-        height: 40vh;
-    } 
-    .detail .name{
-        font-size: x-large;
-        margin: 0;
-
-    }
-    .detail .buttons button{
-        font-size: small;
-    }
-    .detail .buttons{
-        justify-content: center;
-    }
-}
-
-
-
-
-
 
 /* ====================== Carlist Start ===================== */
