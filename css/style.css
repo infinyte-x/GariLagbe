@@ -574,8 +574,9 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 
 .tools_item{
     width: 280px;
+    height: 280px;
     background: #fff;
-    padding: 24px 24px 24px 20px;
+    padding: 18px;
     border-radius: 5px;
     box-shadow: -15px -15px 15px rgba(255,255,255,0.2), 15px 15px 15px rgba(0,0,0,0.1), inset -5px -5px 5px rgba(255,255,255,0.2), inset 5px 5px 5px rgba(0,0,0,0.1);
     transition: 0.2s all linear;
@@ -589,12 +590,15 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 
 .tools_item .tools_text p{
     font-size: 18px;
-    font-weight: 900;
+    font-weight: 400;
     font-family: var(--titillium);
     text-align: center;
     margin-top: 22px;
     transition: 0.2s all linear;
     justify-content: center;
+    margin-bottom: 1.5rem;
+    display: flex;
+
 }
 
 

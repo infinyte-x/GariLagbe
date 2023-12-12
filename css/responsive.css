@@ -126,8 +126,9 @@
     padding: 70px 0;
 }
 .tools_item {
-    width: 80%;
+    max-width: 75%;
     margin: 15px auto;
+    max-height: 100%;
 }
 .tools_cards{
     margin-top: 40px;
@@ -136,6 +137,7 @@
 #works{
     padding: 35px 0;
 }
+
 .works_text_item {
     width: 100%;
     margin-top: 15px;
@@ -547,5 +549,14 @@
         margin-bottom: 0;
         margin-left: 44px;
         position: relative;
+    }
+}
+
+
+@media (min-width: 992px){
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+        text-align: center !important;
     }
 }
