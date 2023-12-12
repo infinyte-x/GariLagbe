@@ -29,7 +29,16 @@ img, svg {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 24px;
+    padding: 50px 15px;
+}
+
+#banner1 {
+    width: 100%;
+    background: url(../images/banner_bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 15px;
 }
 
 /* ================contact page ==================== */
@@ -152,13 +161,13 @@ img, svg {
 .banner_text h4 {
     max-width: 100%;
     font-size: 20px;
-    margin-top: auto;
+    /* margin-top: auto; */
     padding-top: 18px;
 }
 .banner_text p {
     max-width: 100%;
     font-size: 16px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 .banner_button a {
     width: 120px;
