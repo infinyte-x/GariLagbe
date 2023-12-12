@@ -90,7 +90,7 @@
   <div class="container">
     <div class="lists">
       <div class="col-lg-12">
-        <h4 data-aos="fade-down"> Other Cars</h4>
+        <h4 data-aos="fade-down"> Other Collection </h4>
         <div class="listProduct"></div>
         </div> 
     </div>
@@ -181,50 +181,49 @@
   </div>
 </footer>
     <!-- =========== Footer Part End ========== -->
+    <!-- =========== JS Part Start ========== -->
 <script>
-      let product = null;
-            // get datas from file json
-            fetch('products.json')
-                .then(response => response.json())
-                .then(data => {
-                    products = data;
-                    showDetail();
-            })
-    
-            function showDetail(){
-        // remove datas default from HTML
-            let detail = document.querySelector('.detail');
-            let listProduct = document.querySelector('.listProduct');
-            let productId =  new URLSearchParams(window.location.search).get('id');
-            let thisProduct = products.filter(value => value.id == productId)[0];
-            // //if there is no product with id = productId => return to home page
-            if(!thisProduct){
-                window.location.href = "/Packages.html?id=1";
-            }
-    
-            detail.querySelector('.image img').src = thisProduct.image;
-            detail.querySelector('.name').innerText = thisProduct.name;
-            detail.querySelector('.price').innerText = 'BDT' + thisProduct.price;
-            detail.querySelector('.description').innerText = 'BDT' + thisProduct.description;
-    
-    
-            (products.filter(value => value.id != productId)).forEach(product => {
-                let newProduct = document.createElement('a');
-                newProduct.href = '/Package.html?id=' + product.id;
-                newProduct.classList.add('item');
-                newProduct.innerHTML = 
-                `<img src="${product.image}" alt="">
-                <h2>${product.name}</h2>
-                <div class="price">$${product.price}</div>`;
-                listProduct.appendChild(newProduct);
-            });
+  let product = null;
+        // get datas from file json
+        fetch('products.json')
+            .then(response => response.json())
+            .then(data => {
+                products = data;
+                showDetail();
+        })
+
+        function showDetail(){
+    // remove datas default from HTML
+        let detail = document.querySelector('.detail');
+        let listProduct = document.querySelector('.listProduct');
+        let productId =  new URLSearchParams(window.location.search).get('id');
+        let thisProduct = products.filter(value => value.id == productId)[0];
+        //if there is no product with id = productId => return to home page
+        if(!thisProduct){
+            window.location.href = "/";
         }
+
+        detail.querySelector('.image img').src = thisProduct.image;
+        detail.querySelector('.name').innerText = thisProduct.name;
+        detail.querySelector('.price').innerText = 'BDT' + thisProduct.price;
+        detail.querySelector('.description').innerText = 'BDT' + thisProduct.description;
+
+
+        (products.filter(value => value.id != productId)).forEach(product => {
+            let newProduct = document.createElement('a');
+            newProduct.href = '/Package.html?id=' + product.id;
+            newProduct.classList.add('item');
+            newProduct.innerHTML = 
+            `<img src="${product.image}" alt="">
+            <h2>${product.name}</h2>
+            <div class="price">$${product.price}</div>`;
+            listProduct.appendChild(newProduct);
+        });
+    }
+
 </script>
 
 
-
-
-    <!-- =========== JS Part Start ========== -->
     <!-- ---------- JQuery -------- -->
     <script src="./js/jquery-1.12.4.min.js"></script>
     <!-- ---------- Bootstrap CDN -------- -->
