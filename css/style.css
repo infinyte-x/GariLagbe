@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 240px;
+    padding: 130px 50px;
 }
 
 .banner_text h1 {
@@ -464,18 +464,15 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     display: grid;
     z-index: 3;
     position: absolute;
-    top: 32%;
-    right: 12.5%;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    width: 400px;
-    height: 400px;
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    top: 29%;
+    right: 7%;
+    padding: 38px;
+    height: 330px;
+    width: 382px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1rem 0px;
     border-radius: 5px;
     background-color: rgba(0, 25, 31, 0.2);
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(25px);
 }
 
 .sidenav h3 {
@@ -1004,9 +1001,11 @@ a{
     color: antiquewhite;
     filter: drop-shadow(1px 1px 5px rgba(0, 3, 3, 0.4));
 }
-.listProduct .item h2{
+.listProduct .item h2 {
     font-weight: 500;
     font-size: large;
+    color: azure;
+    font-family: var(--titillium);
 }
 .listProduct .item .price {
     letter-spacing: 7px;
@@ -1138,13 +1137,14 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* display: flex; */
+
 }
 .coltext {
-    /* display: flex; */
     margin: 0 auto;
-    background: rgb(0,82,83);background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
+    background: linear-gradient(45deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     backdrop-filter: blur(30px);
+    display: grid;
+    /* justify-content: space-evenly; */
 }
 
 .coltext h1{
@@ -1159,20 +1159,19 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     background-color: var(--brand-color);
 }
 .coltext h5 {
-        font-size: 36px;
-        margin-top: 7px;
-        text-align: right;
-        color: var(--brand-color);
-        padding-right: 64px;
-        line-height: 20px;
-    
+    font-size: 36px;
+    margin-top: 7px;
+    text-align: right;
+    color: var(--brand-color);
+    padding-right: 64px;
+    line-height: 0;
+    margin-top: -28px;
 }
 
-.coltext p{
+.coltext p {
     font-size: 36px;
     margin-top: 50px;
     color: antiquewhite;
-    /* margin-left: 50px; */
     text-align: center;
 }
 
@@ -1181,11 +1180,13 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     display: flex;
 }
 
+.coltext .crmbtn{
+    justify-self: center;
+    align-self: center;
+}
 .coltext .crmbtn a {
     width: 200px;
     height: 64px;
-    /* background: var(--brand-color); */
-    /* border-radius: 64px; */
     font-size: 20px;
     font-weight: 400;
     font-family: var(--titillium);
@@ -1193,20 +1194,18 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 92px;
-    margin-left: 310px;
     transition: 0.2s all linear;
-    border: #eee 1px solid;
-    /* box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2); */
+    border: #eee 2px solid;
+    justify-self: center;
+    align-self: center;
 }
 
 
 .coltext .crmbtn a:hover{
     color: white;
-    border: #eee 1px solid;
     font-weight: 500;
-    transform: scale(1.25);
-    background-color: transparent;
+    transform: scale(1.1);
+    background: var(--brand-color);
 }
 
 
