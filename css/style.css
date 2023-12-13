@@ -1021,7 +1021,7 @@ a{
     gap: 50px;
     text-align: left;
     box-shadow: #000;
-    padding: 80px 0;
+    padding: 80px 50px;
 }
 
 #smproducts{
@@ -1042,7 +1042,7 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
 
 .detail .image img{
     width: 100%;
-    transition: all linear;
+    transition: .3s all linear;
 }
 .detail .image img:hover{
     transform: translate(-5px);
@@ -1067,9 +1067,10 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
 }
 .detail .name{
     font-size: xxx-large;
-    padding: 40px 0 0 0;
+    /* padding: 40px 0 0 0;
     margin: 0 0 10px 0;
-    color: ghostwhite black;
+    color: ghostwhite black; */
+    font-family: var(--titillium);
 }
 .detail .price{
     font-weight: bold;
@@ -1077,6 +1078,7 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     letter-spacing: 7px;
     margin-bottom: 20px;
     color: ghostwhite;
+    font-family: var(--titillium);
 }
 .detail .buttons{
     display: flex;
