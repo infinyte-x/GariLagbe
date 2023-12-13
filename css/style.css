@@ -1140,10 +1140,9 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
 
 }
 .coltext {
-    margin: 0 auto;
     background: linear-gradient(45deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
-    backdrop-filter: blur(30px);
     display: grid;
+    max-height: 648px;
 }
 
 .coltext h1{
@@ -1210,14 +1209,8 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
 
 
 .row2 .imga img {
-    max-width: 400px;
-    align-items: start;
+    max-width: 432px;
     background-repeat: no-repeat;
-    background-size: cover; 
-}
-
-.row2 .imga img:hover {
-    scale: 1.1;
 }
 
 
