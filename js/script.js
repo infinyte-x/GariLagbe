@@ -47,11 +47,13 @@ let navbar = document.querySelector('.navbar');
 window.addEventListener("scroll", ()=>{
   let scrolling  = this.scrollY;
   console.log(scrolling)
-  if(scrolling > 100){
+  if (scrolling > 80) {
       navbar.classList.add("sticky_navbar");
+      navbar.classList.remove('menubar');
   }
   else{
       navbar.classList.remove("sticky_navbar");
+      navbar.classList.add('menubar');
   }
 })
 // -------- Sticky Navbar Part End --------//
@@ -110,73 +112,26 @@ let products = null;
             });
         }
     }
-// ================ Car List & Detail Page Start=================//
-// let product = null;
-//         // get datas from file json
-//         fetch('products.json')
-//             .then(response => response.json())
-//             .then(data => {
-//                 products = data;
-//                 showDetail();
-//         })
 
-//         function showDetail(){
-//     // remove datas default from HTML
-//         let detail = document.querySelector('.detail');
-//         let listProduct = document.querySelector('.listProduct');
-//         let productId =  new URLSearchParams(window.location.search).get('id');
-//         // let thisProduct = products.filter(value => value.id == productId)[0];
-//         //if there is no product with id = productId => return to home page
-//         // if(!thisProduct){
-//         //     window.location.href = "/";
-//         // }
-
-//         detail.querySelector('.image img').src = thisProduct.image;
-//         detail.querySelector('.name').innerText = thisProduct.name;
-//         detail.querySelector('.price').innerText = 'BDT' + thisProduct.price;
-//         detail.querySelector('.description').innerText = 'BDT' + thisProduct.description;
-
-
-//         (products.filter(value => value.id != productId)).forEach(product => {
-//             let newProduct = document.createElement('a');
-//             newProduct.href = '/Packages.html?id=' + product.id;
-//             newProduct.classList.add('item');
-//             newProduct.innerHTML = 
-//             `<img src="${product.image}" alt="">
-//             <h2>${product.name}</h2>
-//             <div class="price">$${product.price}</div>`;
-//             listProduct.appendChild(newProduct);
-//         });
-//     }
 
 // ================ Car List & Detail Page Start=================//
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 
 // ================ Car List & Detail Page Start=================//
+
+// ======================= navbar ===========================///
+
+
+// let navbar =  document.querySelector('.navbar');
+// window.addEventListener('scroll', () => {
+//   if (window.scrollY > 100) {
+//     navbar.classList.add('nav-scrolled');
+//     navbar.classList.remove('.menubar');
+//   }
+//   else {
+//     navbar.classList.remove("nav-scrolled");
+// }
+// });
+// ======================= navbar ===========================///

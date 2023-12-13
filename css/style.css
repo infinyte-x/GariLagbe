@@ -23,9 +23,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     padding: 0;
     outline: 0;
 }
-/* .body{
-    background-attachment: fixed;
-} */
+
 .common_heading h4{
     font-size: 24px ;
     font-weight: 600;
@@ -107,21 +105,29 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 }
 
 /* ============ navbar =================*/
-.navbar-text,
+.navbar-text,navbar
 .nav-link,
 .nav-link.active
 .navbar-nav .nav-link.show{
     color: whitesmoke !important;
+
 }
-.navbar-collapse{
-    margin-left: -72px;
+.navbar-collapse,
+.navbar-brand .logo{
+    margin-left: -20px;
+    width: 160px !important;
 }
 
+.navbar-dark{
+    -webkit-backdrop-filter: blur(5px) !important;
+    backdrop-filter: blur(5px) !important;;
+    background-color: rgba(0, 25, 31, 0.55);
+}
 
 
 /* ------------ back to top button end */
 /* ========= Menubar Part Start ========= */
-#menubar{
+.menubar{
     background-color: var(--brand-aux);
 }
 .menubar .logo{
@@ -184,6 +190,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     animation: nav_ani 1s;
 }
 
+
 .get_button a {
     width: 150px;
     height: 40px;
@@ -200,6 +207,11 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     transition: 0.25s all linear;
     margin: 0 auto;
 }
+
+
+
+
+
 .get_button a:hover {
     color: white;
     font-weight:400;
@@ -224,6 +236,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     background-repeat: no-repeat;
     background-position: center;
     padding: 130px 50px;
+    margin-top: 0;
 }
 
 #banner2 {
@@ -605,7 +618,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 /* ========= Features Part Start ========= */
 #features{
     width: 100%;
-    background: #FFFFFF;
+    background: #ffffff;
     padding: 120px 0;
 }
 .feature_slider{
@@ -614,11 +627,12 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 .feature_slider .feature_slider_item{
     width:100%;
     padding: 40px 40px 50px 40px ;
-    border-radius: 17px;
+    border-radius: 0;
+    /* background: whitesmoke; */
 }
 .feature_slider_img img{
     height: 240px;
-    border-radius: 17px;
+    border-radius: 10px;
 }
 .feature_text{
     padding: 20px;
@@ -1142,7 +1156,7 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
 .coltext {
     background: linear-gradient(45deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     display: grid;
-    max-height: 600px;
+    max-height: 648px;
     /* justify-content: space-between; */
 }
 
@@ -1211,7 +1225,7 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
 
 
 .row2 .imga img {
-    max-width: 400px;
+    max-width: 432px;
     background-repeat: no-repeat;
 }
 
