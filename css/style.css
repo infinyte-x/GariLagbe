@@ -537,16 +537,6 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 /* =============== Contact Page =============== */
 
 
-
-
-
-
-
-
-
-
-
-
 /* ================== Extra ================== */
 @media only screen and (max-width: 992px) {
     .sidenav{
@@ -557,12 +547,6 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 
 
 /* ------------ Banner Part End ------------ */
-
-
-
-
-
-
 
 
 /* ========= Tools Part Start ========= */
@@ -577,21 +561,39 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 .tools_cards{
     margin-top: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 .tools_item .tools_text{
     text-align: center;
 }
 
-.tools_item{
-    width: 280px;
-    height: 280px;
+.tools_text {
+    display: grid;
+    grid-auto-flow: column dense;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px 0px;
+    grid-template-areas:
+        "h3"
+        "p";
+    justify-content: center;
+    align-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.tools_item {
+    width: 300px;
+    height: 300px;
     background: #fff;
     padding: 18px;
     border-radius: 5px;
     box-shadow: -15px -15px 15px rgba(255,255,255,0.2), 15px 15px 15px rgba(0,0,0,0.1), inset -5px -5px 5px rgba(255,255,255,0.2), inset 5px 5px 5px rgba(0,0,0,0.1);
     transition: 0.2s all linear;
     cursor: pointer;
+    display: grid;
 }
 .tools_item:hover{
     background: var(--brand-color);
@@ -604,12 +606,11 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     font-weight: 400;
     font-family: var(--titillium);
     text-align: center;
-    margin-top: 22px;
+    /* margin-top: 22px; */
     transition: 0.2s all linear;
-    justify-content: center;
-    margin-bottom: 1.5rem;
-    display: flex;
-
+    align-self: baseline;
+    /* margin-bottom: 1.5rem; */
+    
 }
 
 
