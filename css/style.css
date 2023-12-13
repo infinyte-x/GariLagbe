@@ -1142,7 +1142,8 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
 .coltext {
     background: linear-gradient(45deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     display: grid;
-    max-height: 648px;
+    max-height: 600px;
+    /* justify-content: space-between; */
 }
 
 .coltext h1{
@@ -1158,21 +1159,22 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
 }
 .coltext h5 {
     font-size: 36px;
-    margin-top: 7px;
+    /* margin-top: 7px; */
     text-align: right;
     color: var(--brand-color);
     padding-right: 64px;
     line-height: 0;
-    margin-top: -28px;
+    margin-top: -40px;
 }
 
 .coltext p {
     font-size: 36px;
-    margin-top: 50px;
     color: antiquewhite;
     text-align: center;
+    /* padding: 10px 20px 20px 10px;
+    align-self: center; */
+    justify-self: center;
 }
-
 
 #crm1 .row2{
     display: flex;
@@ -1180,7 +1182,7 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
 
 .coltext .crmbtn{
     justify-self: center;
-    align-self: center;
+
 }
 .coltext .crmbtn a {
     width: 200px;
@@ -1209,7 +1211,7 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
 
 
 .row2 .imga img {
-    max-width: 432px;
+    max-width: 400px;
     background-repeat: no-repeat;
 }
 
