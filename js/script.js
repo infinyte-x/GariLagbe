@@ -30,6 +30,24 @@ $('.feature_slider').slick({
   ]
 });
 
+
+
+$('.contact_slider').slick({
+  slidesToShow: 1,
+  autoplay: false,
+  autoplaySpeed: 1000,
+  centerPadding: '0px',
+  centerMode:true,
+  // responsive: [
+  //   {
+  //     breakpoint: 767.98,
+  //     settings: {
+  //       slidesToShow: 1,
+  //       slidesToScroll: 1
+  //     }
+  //   }
+  // ]
+});
 // -------- Slick Slider Part End -----------//
 // ======= Sticky Navbar Part Start ==========//
 let navbar = document.querySelector('.navbar');

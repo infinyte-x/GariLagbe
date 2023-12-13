@@ -1144,7 +1144,6 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     background: linear-gradient(45deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     backdrop-filter: blur(30px);
     display: grid;
-    /* justify-content: space-evenly; */
 }
 
 .coltext h1{
