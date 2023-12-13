@@ -1157,7 +1157,8 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     background: linear-gradient(45deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     display: grid;
     max-height: 648px;
-    /* justify-content: space-between; */
+    margin-left: 10px;
+    max-width: 854px;
 }
 
 .coltext h1{
