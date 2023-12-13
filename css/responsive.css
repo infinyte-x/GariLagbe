@@ -152,7 +152,7 @@ img, svg {
     font-size: 64px;
     font-family: var(--titillium);
     /* text-align: center; */
-    padding: 0 0 0 10px;
+    /* padding: 0 0 0 10px; */
 }
 .banner_text h2 {
     width: 100%;

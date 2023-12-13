@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 }
 .navbar-collapse,
 .navbar-brand .logo{
-    margin-left: -20px;
+    /* margin-left: -20px; */
     width: 160px !important;
 }
 
@@ -270,7 +270,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     font-weight: 700;
     font-family: var(--titillium);
     color: whitesmoke !important;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     text-shadow: #000000 4px 4px 4px;
 }
 
@@ -280,7 +280,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     font-family: var(--titillium);
     color: whitesmoke;
     margin-top: 20px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     text-shadow: #000000 2px 2px 2px;
 }
 
@@ -292,8 +292,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     color: whitesmoke;
     margin-top: 3px;
     text-shadow: rgb(0, 0, 0) 2px 2px 2px;
-    margin-left: 10px;
-
+    /* margin-left: 10px; */
 }
 .banner_button a{
     width: 160px;
@@ -308,7 +307,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     justify-content: center;
     align-items: center;
     margin-top: 32px ;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     transition: 0.2s all linear;
 }
 .banner_button a:hover{
@@ -330,7 +329,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     justify-content: center;
     align-items: center;
     margin-top: 32px ;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     transition: 0.2s all linear;
 }
 .banner_button1 a:hover{
@@ -766,6 +765,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     align-items: center;
     justify-content: center;
 }
+
 .row .download_text a {
     margin-left: 25%;
     width: 150px;
@@ -793,8 +793,8 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     font-weight: 600;
     font-family: var(--titillium);
     color: var(--brand-color);
-    /* text-align: center; */
-    padding-left: 10px;
+    /* text-align: center;
+    padding-left: 10px; */
 }
 .row .download_text h4 {
     font-size: 22px;
@@ -802,7 +802,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     font-family: var(--titillium);
     color: var(--primary-color);
     /* text-align: center; */
-    padding-left: 12px;
+    /* padding-left: 12px; */
     padding-top: 18px;
 }
 .row .service{
