@@ -29,7 +29,7 @@ img, svg {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 60px 15px;
+    padding: 135px 15px;
 }
 
 #banner1 {
@@ -38,7 +38,7 @@ img, svg {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 50px 15px;
+    padding: 65px 15px;
 }
 
 
@@ -225,7 +225,7 @@ img, svg {
 }
 /* ------Banner Part Start----- */
 #banner{
-    padding: 50px 15px;
+    padding: 130px 15px;
 }
 .banner_text h3 {
     max-width: 100%;
