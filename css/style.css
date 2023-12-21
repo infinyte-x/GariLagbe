@@ -542,6 +542,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 }
 .row3{
     display: flex;
+    flex-wrap: wrap;
 }
 .headline h1{
     color:#eee;
@@ -746,7 +747,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 
 .tools_item {
     width: 300px;
-    height: 300px;
+    height: 250px;
     background: #fff;
     padding: 18px;
     border-radius: 5px;
