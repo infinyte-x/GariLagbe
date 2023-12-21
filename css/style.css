@@ -649,7 +649,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 
 #crm1 .row2{
     display: flex;
-    fle
+    flex-wrap: nowrap;
 }
 
 .coltext .crmbtn{
@@ -702,6 +702,12 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 /* ================== Extra ================== */
 @media only screen and (max-width: 992px) {
     .sidenav{
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .imga{
         visibility: hidden;
     }
 }
