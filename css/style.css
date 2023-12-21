@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 /* ========= Variable Part Start ========= */
 :root{
     --primary-color: #222222;
-    --brand-color: #FF8C00;
+    --brand-color: #FF5733;
     --brand-aux: #00191F; 
     --titillium: 'Montserrat', sans-serif;
 }
@@ -1164,7 +1164,7 @@ a{
     font-weight: 600;
     text-transform: uppercase;
     color: snow;
-    /* padding-bottom: 30px; */
+    padding-bottom: 30px;
     text-align: center;
     place-items: center;
 
@@ -1259,18 +1259,7 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     position: relative;
     display: grid;
 }
-.detail .image::before{
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    content: '';
-    background-color: #94817733;
-    z-index: -1;
-    border-radius: 190px 100px 170px 180px;
-    left: calc(50% - 150px);
-    top: 50px;
 
-}
 .detail .name {
     font-size: 48px;
     font-family: var(--titillium);
