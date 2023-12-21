@@ -203,17 +203,14 @@ img, svg {
 
 
 /* ------- Navbar Part Start-------- */
-.dropdown-menu.show {
+/* .dropdown-menu.show {
     display: block;
     background: #3f3f41;
-}
+} */
 .navbar-toggler{
     color:#f8f8f8 ;
 }
 
-.show{
-    padding-bottom: 5px;
-}
 .menu_item{
     border-radius: 15px;
     padding: 15px 0;
