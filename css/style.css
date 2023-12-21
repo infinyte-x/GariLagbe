@@ -563,6 +563,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     display: grid;
     padding: 24px 0;
     text-align: left;
+    width: 431px;
 }
 
 .contacts_text h3{
@@ -587,6 +588,10 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     color: #eee;
     margin-bottom: 10px;
     text-decoration: underline;
+}
+.google_map{
+    max-width: 854px;
+    margin-left: 10px;
 }
 
 
