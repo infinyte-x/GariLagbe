@@ -126,6 +126,66 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 
 
 /* ------------ back to top button end */
+.navbar-toggler
+{
+    border: 0;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus
+{
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+.toggler-icon
+{
+    width: 30px;
+    height: 3px;
+    display: block;
+    transition: all 0.2s;
+    border-radius: 3px;
+}
+.middle-bar
+{
+    margin: 5px auto;
+}
+.navbar-toggler .top-bar
+{
+    transform: rotate(45deg);
+    transform-origin: 10% 100%;
+    background-color: pink;
+}
+.navbar-toggler .middle-bar
+{
+    background: var(--brand-color);
+    opacity: 0;
+}
+.navbar-toggler .bottom-bar
+{
+    transform: rotate(-45deg);
+    transform-origin: 20% 20%;
+    background-color: red;
+}
+.collapsed .top-bar
+{
+    transform: rotate(0);
+}
+.collapsed .middle-bar
+{
+    opacity: 1;
+    transform: rotate(0);
+}
+.collapsed .bottom-bar
+{
+    transform: rotate(0);
+}
+
+
+
+
+
+
 /* ========= Menubar Part Start ========= */
 .menubar{
     background-color: var(--brand-aux);
