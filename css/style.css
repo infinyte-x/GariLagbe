@@ -295,7 +295,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 130px 50px;
+    padding: 132px 50px;
     margin-top: 0;
 }
 
@@ -473,14 +473,11 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     display: grid;
     z-index: 3;
     position: absolute;
-    top: 30%;
-    right: 7%;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    width: 400px;
-    height: 400px;
+    top: 31%;
+    right: 7.5%;
+    padding: 38px;
+    height: 330px;
+    width: 382px;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     background-color: rgba(0, 25, 31, 0.2);
