@@ -1313,3 +1313,16 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
 
 
 /* ================= crm1 part start ================== */
+
+
+/* ================= custom scrollbar ================= */
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: var(--brand-aux);
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#FF8C00, #ff005d);
+    border-radius: 10px;
+}
