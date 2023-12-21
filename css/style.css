@@ -595,7 +595,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 #contacts {
     width: 100%;
     padding: 40px 0;
-    background: linear-gradient(262deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
+    background: linear-gradient(17deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1334,6 +1334,11 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     border-radius: 3px;
 }
 
+
+
+
+
+/* ================= crm1 part start ================== */
 
 
 
