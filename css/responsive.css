@@ -208,12 +208,9 @@ img, svg {
     background: #3f3f41;
 }
 .navbar-toggler{
-    border: 2px solid #ffffff;
     color:#f8f8f8 ;
 }
-.navbar-toggler:focus {
-    box-shadow: none;
-}
+
 .show{
     padding-bottom: 5px;
 }
