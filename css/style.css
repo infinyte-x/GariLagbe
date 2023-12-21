@@ -540,7 +540,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     background-repeat: no-repeat;
     background-position: center;
 }
-.row{
+.row3{
     display: flex;
 }
 .headline h1{
