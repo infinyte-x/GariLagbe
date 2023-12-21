@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     height: 40px;
     /* padding: 10px 00px 10px 0px; */
     background: var(--brand-color);
-    border-radius: 1px;
+    border-radius: 2;
     font-size: 18px;
     font-weight: 300;
     font-family: var(--titillium);
@@ -298,7 +298,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     width: 160px;
     height: 40px;
     background: var(--brand-color);
-    border-radius: 1px;
+    border-radius: 2;
     font-size: 20px;
     font-weight: 400;
     font-family: var(--titillium);
@@ -320,7 +320,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     width: 220px;
     height: 48px;
     background: var(--brand-color);
-    border-radius: 1px;
+    border-radius: 2;
     font-size: 20px;
     font-weight: 400;
     font-family: var(--titillium);
@@ -428,7 +428,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     color: snow;
     font-size: 32px;
     text-align: center;
-    text-shadow: #000000 1px 1px 4px;
+    text-shadow: #000000 2 2 4px;
 }
 .sidenav h3 span{
     color: var(--brand-color);
@@ -442,7 +442,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     font-weight: 400;
     padding: 10px 20px;
     margin-top: 10px;
-    text-shadow: #000000 1px 1px 1px;
+    text-shadow: #000000 2 2 2;
     text-align: justify;
 }
 .sidenav p span {
@@ -491,7 +491,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     color: snow;
     font-size: 32px;
     text-align: center;
-    text-shadow: #000000 1px 1px 4px;
+    text-shadow: #000000 2 2 4px;
 }
 .sidenav h3 span{
     color: var(--brand-color);
@@ -505,7 +505,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     font-weight: 400;
     padding: 10px 20px;
     margin-top: 10px;
-    text-shadow: #000000 1px 1px 1px;
+    text-shadow: #000000 2 2 2;
     text-align: justify;
 }
 .sidenav p span {
@@ -529,6 +529,161 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     line-height: 40px;
     color: azure;
 }
+
+/* ================== contact information ================= */
+
+#contacts {
+    width: 100%;
+    padding: 40px 0;
+    background: linear-gradient(262deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.row3{
+    display: flex;
+}
+.headline h1{
+    color:#eee;
+    padding: 12px 0 8px 0;
+    letter-spacing: 3px;
+    font-size: 44px;
+}
+.headline p{
+    color:#eee;
+    padding: 0 0 32px 5px;
+}
+.contacts_text i{
+    color: #ffffff;
+    padding: 20px 2px;
+}
+.contacts_text{
+    background: linear-gradient(262deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
+    background-size: cover;
+    display: grid;
+    padding: 24px 0;
+    text-align: left;
+}
+
+.contacts_text h3{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #eee;
+}
+
+.contacts_text p{
+    font-size: 12px;
+    /* padding: 10px 0; */
+    text-align: left;
+    color: #eee;
+}
+
+.contacts_text a{
+    font-size: 14px;
+    padding: 10px 0;
+    text-align: left;
+    color: #eee;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+
+/* ================== contact information ================= */
+
+
+/* ================= crm1 part start ================== */
+#crm1 {
+    width: 100%;
+    padding: 40px 0;
+    background: linear-gradient(262deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.coltext {
+    background: linear-gradient(45deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
+    display: grid;
+    max-height: 648px;
+    margin-left: 10px;
+    max-width: 854px;
+}
+
+.coltext h1{
+    font-size: 64px;
+    margin-top: 20px;
+    text-align: right;
+    padding-left: 65px;
+    color: #eee;
+    padding-right: 64px;
+}
+.coltext h1 span{
+    background-color: var(--brand-color);
+}
+.coltext h5 {
+    font-size: 36px;
+    /* margin-top: 7px; */
+    text-align: right;
+    color: var(--brand-color);
+    padding-right: 64px;
+    line-height: 0;
+    margin-top: -40px;
+}
+
+.coltext p {
+    font-size: 36px;
+    color: antiquewhite;
+    text-align: center;
+    /* padding: 10px 20px 20px 10px;
+    align-self: center; */
+    justify-self: center;
+}
+
+#crm1 .row2{
+    display: flex;
+}
+
+.coltext .crmbtn{
+    justify-self: center;
+
+}
+.coltext .crmbtn a {
+    width: 200px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--titillium);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s all linear;
+    border: #eee 2px solid;
+    justify-self: center;
+    align-self: center;
+}
+
+
+.coltext .crmbtn a:hover{
+    color: white;
+    font-weight: 500;
+    transform: scale(1.1);
+    background: var(--brand-color);
+}
+
+
+
+.row2 .imga img {
+    max-width: 432px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* ================= crm1 part end ================== */
 
 
 
@@ -772,7 +927,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     width: 150px;
     height: 48px;
     background: var(--brand-color);
-    border-radius: 1px;
+    border-radius: 2;
     font-size: 20px;
     font-weight: 400;
     font-family: var(--titillium);
@@ -1014,7 +1169,7 @@ a{
     max-width: 100%;
     text-align: center;
     color: antiquewhite;
-    filter: drop-shadow(1px 1px 5px rgba(0, 3, 3, 0.4));
+    filter: drop-shadow(2 2 5px rgba(0, 3, 3, 0.4));
 }
 .listProduct .item h2 {
     font-weight: 500;
@@ -1144,97 +1299,6 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     padding: 40px 10px 40px 0;
 }
 
-/* ================= crm1 part start ================== */
-#crm1 {
-    width: 100%;
-    padding: 100px 0;
-    background: rgb(0,82,83);background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-.coltext {
-    background: linear-gradient(45deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
-    display: grid;
-    max-height: 648px;
-    margin-left: 10px;
-    max-width: 854px;
-}
-
-.coltext h1{
-    font-size: 64px;
-    margin-top: 20px;
-    text-align: right;
-    padding-left: 65px;
-    color: #eee;
-    padding-right: 64px;
-}
-.coltext h1 span{
-    background-color: var(--brand-color);
-}
-.coltext h5 {
-    font-size: 36px;
-    /* margin-top: 7px; */
-    text-align: right;
-    color: var(--brand-color);
-    padding-right: 64px;
-    line-height: 0;
-    margin-top: -40px;
-}
-
-.coltext p {
-    font-size: 36px;
-    color: antiquewhite;
-    text-align: center;
-    /* padding: 10px 20px 20px 10px;
-    align-self: center; */
-    justify-self: center;
-}
-
-#crm1 .row2{
-    display: flex;
-}
-
-.coltext .crmbtn{
-    justify-self: center;
-
-}
-.coltext .crmbtn a {
-    width: 200px;
-    height: 64px;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: var(--titillium);
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.2s all linear;
-    border: #eee 2px solid;
-    justify-self: center;
-    align-self: center;
-}
-
-
-.coltext .crmbtn a:hover{
-    color: white;
-    font-weight: 500;
-    transform: scale(1.1);
-    background: var(--brand-color);
-}
-
-
-
-.row2 .imga img {
-    max-width: 432px;
-    background-repeat: no-repeat;
-}
-
-
-
-
-/* ================= crm1 part start ================== */
 
 /* ================= crm1 part start ================== */
 
