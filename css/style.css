@@ -649,12 +649,13 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 
 #crm1 .row2{
     display: flex;
+    fle
 }
 
 .coltext .crmbtn{
     justify-self: center;
-
 }
+
 .coltext .crmbtn a {
     width: 200px;
     height: 64px;

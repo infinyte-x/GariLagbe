@@ -29,7 +29,7 @@ img, svg {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 50px 15px;
+    padding: 60px 15px;
 }
 
 #banner1 {
@@ -42,7 +42,25 @@ img, svg {
 }
 
 /* ================contact page ==================== */
-
+.contacts_text {
+    width: 388px;
+    box-shadow: #f8f8f8 solid 5px;
+    margin-bottom: 24px;
+    padding: 24px 0;
+    text-align: center;
+}
+.row3{
+    /* justify-content: center; */
+    height: auto;
+}
+.google_map{
+    width: 370px;
+    height: 246.68px;
+    margin-top: 24px;
+}
+.contacts_text h3 , .contacts_text p, .contacts_text a{
+    text-align: center;
+}
 
 
 
