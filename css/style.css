@@ -625,6 +625,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     padding: 24px 0;
     text-align: left;
     width: 431px;
+    padding-left: 24px;
 }
 
 .contacts_text h3{
