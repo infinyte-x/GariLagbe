@@ -1175,16 +1175,15 @@ a{
 }
 .listProduct .item img{
     max-width: 100%;
-    /* filter: drop-shadow(0 50px 20px rgba(255, 140, 0, 0.05)); */
     transition: 300ms all linear;
 }
 
 .listProduct .item:hover{
     transform: scale(1.05);
-    filter: drop-shadow(10px 10px 20px rgba(98, 98, 98, 0.4));
+    /* filter: drop-shadow(10px 10px 20px rgba(98, 98, 98, 0.4)); */
 }
 .listProduct .item img:hover{
-    transform: scale(1.1);
+    transform: scale(1.2) ;
 }
 .listProduct{
     display: grid;
