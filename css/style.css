@@ -35,8 +35,9 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     font-size: 32px ;
     font-weight: 600;
     font-family: var(--titillium);
-    color: black !important;
+    color: #eee;
     text-align: center;
+    text-transform: uppercase;
 }
 .common_heading h3 span{
     color: var(--brand-color);
@@ -45,7 +46,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     font-size: 18px ;
     font-weight: 400;
     font-family: var(--titillium);
-    color: var(--primary-color);
+    color: #eee;
     text-align: center;
     margin-top: 24px;
     margin-bottom: 24px;
@@ -781,10 +782,8 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 /* ========= Tools Part Start ========= */
 #tools{
     width: 100%;
-    background: url(../images/tools_bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: linear-gradient(90deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
+
     padding: 120px 0;
 }
 .tools_cards{
@@ -815,12 +814,12 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 
 .tools_item {
     width: 300px;
+    color: #FFFFFF;
     height: 250px;
-    background: #fff;
+    background: linear-gradient(45deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     padding: 18px;
     border-radius: 5px;
-    box-shadow: -15px -15px 15px rgba(255,255,255,0.2), 15px 15px 15px rgba(0,0,0,0.1), inset -5px -5px 5px rgba(255,255,255,0.2), inset 5px 5px 5px rgba(0,0,0,0.1);
-    transition: 0.2s all linear;
+    transition: 0.25s all linear;
     cursor: pointer;
     display: grid;
 }
@@ -847,17 +846,18 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 /* ========= Features Part Start ========= */
 #features{
     width: 100%;
-    background: #ffffff;
-    padding: 120px 0;
+    background: linear-gradient(45deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
+    padding: 80px 0;
 }
 .feature_slider{
     position: relative;
 }
 .feature_slider .feature_slider_item{
     width:100%;
-    padding: 40px 40px 50px 40px ;
+    gap: 10px;
+    padding: 40px 40px 40px 40px ;
     border-radius: 0;
-    /* background: whitesmoke; */
+    background: linear-gradient(45deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
 }
 .feature_slider_img img{
     height: 240px;
@@ -865,6 +865,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 }
 .feature_text{
     padding: 20px;
+    color: #eee;
 }
 .feature_slider_item .feature_text h3{
     font-size: 25px;
@@ -872,7 +873,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     font-family: var(--titillium);
     line-height: 24px;
     text-align: center;
-    color:#1E1E1E ;
+    color:#eee;
     margin-top: 16px;
 }
 .feature_slider_item .feature_text p{
@@ -900,19 +901,19 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     margin: 0 auto;
 }
 .slick-center{
-    box-shadow: -15px -15px 15px rgba(255,255,255,0.2), 15px 15px 15px rgba(0,0,0,0.1), inset -5px -5px 5px rgba(255,255,255,0.2), inset 5px 5px 5px rgba(0,0,0,0.1);
-    border-radius: 17px;
+    /* box-shadow: -15px -15px 15px rgba(255,255,255,0.2), 15px 15px 15px rgba(0,0,0,0.1), inset -5px -5px 5px rgba(255,255,255,0.2), inset 5px 5px 5px rgba(0,0,0,0.1); */
+    border-radius: 24px;
     margin-bottom: 50px;
 }
 .slick-center .feature_button a{
     background: var(--brand-color);
-    box-shadow: -15px -15px 15px rgba(255,255,255,0.2), 15px 15px 15px rgba(0,0,0,0.1), inset -5px -5px 5px rgba(255,255,255,0.2), inset 5px 5px 5px rgba(0,0,0,0.1);
+    /* box-shadow: -15px -15px 15px rgba(255,255,255,0.2), 15px 15px 15px rgba(0,0,0,0.1), inset -5px -5px 5px rgba(255,255,255,0.2), inset 5px 5px 5px rgba(0,0,0,0.1); */
 }
 .prevarrow, .nextarrow{
     height: 40px;
     width: 40px;
     background: var(--primary-color);
-    color: #fff;
+    color: var(--brand-color);
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
@@ -937,10 +938,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 #works{
     width: 100%;
     padding: 100px 0;
-    background: url(../images/tools_bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: linear-gradient(200deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
 }
 .works_text_item{
     width: 445px ;
@@ -952,7 +950,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: var(--primary-color);
+    background: var(--brand-color);
     font-size: 20px;
     font-weight: 600;
     font-family: var(--titillium);
@@ -965,7 +963,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     font-size: 20px;
     font-weight: 400;
     font-family: var(--titillium);
-    color: var(--primary-color);
+    color: #FFFFFF;
     padding-left: 10px;
 }
 .works_text_item p span{
@@ -1146,7 +1144,6 @@ footer{
 /* ====================== Carlist Start ===================== */
 #carlist{
     padding: 50px 0;
-    background: rgb(0,82,83);
     background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
 }
 
@@ -1178,7 +1175,7 @@ a{
 
 .listProduct .item:hover{
     transform: scale(1.05);
-    filter: drop-shadow(10px 10px 20px rgba(72, 188, 203, 0.4));
+    filter: drop-shadow(10px 10px 20px rgba(98, 98, 98, 0.4));
 }
 .listProduct .item img:hover{
     transform: scale(1.1);
@@ -1190,13 +1187,13 @@ a{
     padding: 20px 20px;
 }
 .listProduct .item {
-    background-color: rgb(0 34 39 / 0.80);
+    background-color: rgba(0, 84, 97, 0.8);
     padding: 20px;
     border-radius: 20px;
     max-width: 100%;
     text-align: center;
     color: antiquewhite;
-    filter: drop-shadow(2 2 5px rgba(0, 3, 3, 0.4));
+    filter: drop-shadow(2px 2px 5px rgba(0, 3, 3, 0.4));
 }
 .listProduct .item h2 {
     font-weight: 500;
