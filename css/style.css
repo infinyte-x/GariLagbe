@@ -1384,8 +1384,7 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
         display: flex;
         align-items: center;
         justify-content: space-between;
-        flex-direction: column;
-        row-gap: 20px;
+        gap: 20px;
 }
 
 .amission{

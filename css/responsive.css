@@ -60,11 +60,19 @@ img, svg {
     padding: 10px 0;
     color: whitesmoke;
 }
+#mission .row4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
 .astory, .amission {
     padding: 50px 50px;
     color: whitesmoke;
     background-color: #00191F;
-    border-radius: 24px;
+    border-radius: 10px;
 }
 #team {
     width: 100%;
