@@ -1457,6 +1457,7 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
     align-items: center;
     justify-content: center;
     z-index: 1;
+    filter: drop-shadow(5px 5px 10px #212121);
 }
 .img-box::before{
     content: "";
