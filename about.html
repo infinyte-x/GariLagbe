@@ -120,19 +120,59 @@
                 <h1>Meet The Team</h1>
             </div>
             <div class="gallery">
-              <div class="img-box"><h4>SAJIB</h3></div>
-              <div class="img-box"><h4>KAMIAB</h3></div>
-              <div class="img-box"><h4>NOSIN</h3></div>
-              <div class="img-box"><h4>REWON</h3></div>
-              <div class="img-box"><h4>JAYITA</h3></div>
-              <div class="img-box"><h4>NAFIZ</h3></div>
-              <div class="img-box"><h4>SHARMIN</h3></div>
-              
-              
+              <div class="img-box"><h3>SAJIB</h3>
+                <div class="detailz">
+                  <h2>FAISAL IQBAL SAJIB</h2>
+                  <h4>Front-End Developer</h4>
+                </div>
+              </div>
+              <div class="img-box"><h3>KAMIAB</h3>
+                <div class="detailz">
+                  <h2>KAMIAB HOSSAIN KANAK</h2>
+                  <h4>Graphics Designer</h4>
+                </div>
+              </div>
+              <div class="img-box"><h3>NOSIN</h3>
+                <div class="detailz">
+                  <h2>MOBASHIRA NOSIN CHOWDHURY</h2>
+                  <h4>UX/UI Designer</h4>
+                </div>
+              </div>
+              <div class="img-box"><h3>REWON</h3>
+                <div class="detailz">
+                  <h2>MAHMUDUL REWON</h2>
+                  <h4>Graphics Designer</h4>
+                </div>
+              </div>
+              <div class="img-box"><h3>JAYITA</h3>
+                <div class="detailz">
+                  <h2>JAYITA DEBNATH</h2>
+                  <h4>UX/UI Lead Designer</h4>
+                </div>
+              </div>
+              <div class="img-box"><h3>NAFIZ</h3>
+                <div class="detailz">
+                  <h2>NAFIZ ISLAM</h2>
+                  <h4>Front-End Developer</h4>
+                </div>
+              </div>
+              <div class="img-box"><h3>SHARMIN</h3>
+                <div class="detailz">
+                  <h2>SHARMIN SULTANA</h2>
+                  <h4>UX/UI Designer</h4>
+                </div>
+              </div>
+              <div class="img-box"><h3>ORPA</h3>
+                <div class="detailz">
+                  <h2>JARIN TASNIM ORPA</h2>
+                  <h4>UX/UI Designer</h4>
+              </div>
             </div>
-            </div>
-
-
+          </div>
+          </div>
+        </div>
+      </div>
+  </div>
 
 
 
@@ -220,6 +260,14 @@
     <script src="./js/jquery.counterup.min.js"></script>
     <!-- ---------- Custom JS -------- -->
     <script src="./js/script.js"></script>
+
+    <script>
+      jQuery(document).ready(function($){
+        $('.img-box').on('click', function(){
+          $('.img-box').addClass('detailz');
+        })
+      })
+    </script>
     <!-- =========== JS Part End ========== -->
 </body>
 </html>
