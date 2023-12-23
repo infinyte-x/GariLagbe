@@ -140,8 +140,20 @@
   </div>
 </section>
 <!-- ============== CRM Part Start =================== -->
+<section id="contact_form">
+    <form onsubmit="sendEmail(); reset(); return false;">
+      <h3>GET IN TOUCH</h3>
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>  
+      <input type="text" id="phone" placeholder="Phone Number" required> 
+      <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+      <button type="submit">Send</button>
+    </form>
 
-    <!-- =========== Service Part Start ========== -->
+
+</section>
+
+<!-- =========== Service Part Start ========== -->
     <section id="downloads">
       <div class="container">
         <div class="row">
@@ -219,6 +231,24 @@
     <script src="./js/jquery.counterup.min.js"></script>
     <!-- ---------- Custom JS -------- -->
     <script src="./js/script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail(){
+              Email.send({
+                SecureToken: " 87b6d2fc-ffcf-4a43-8e89-7151c2f9b82b",
+                To : 'garilagbehelp@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "Message from Site",
+                Body : "Name: " + document.getElementById("name").value
+                // + "<br> Email: " + document.getElementById("email").value
+                // + "<br> Phone No: " + document.getElementById("phone").value
+                // + "<br> Message: " + document.getElementById("massage").value
+                }).then(
+                message => alert("Message Sent Successful")
+                );
+                }
+    
+    </script>
     <!-- =========== JS Part End ========== -->
 </body>
 </html>
