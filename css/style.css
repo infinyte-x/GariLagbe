@@ -1120,7 +1120,7 @@ box-shadow: 21px 28px 51px -15px rgba(0,25,31,1);
     margin-left: 0;
     position: relative;
     padding-left: 100px;
-    filter: drop-shadow(-5px -1px 15px #000000);
+    filter: drop-shadow(-1px -1px 15px #00191f);
 }
 
 
