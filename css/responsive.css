@@ -274,7 +274,7 @@ img, svg {
 }
 /* ------Banner Part Start----- */
 #banner{
-    padding: 130px 15px;
+    padding: 100px 15px;
 }
 .banner_text h3 {
     max-width: 100%;
@@ -286,8 +286,7 @@ img, svg {
     max-width: 100%;
     font-size: 64px;
     font-family: var(--titillium);
-    /* text-align: center; */
-    /* padding: 0 0 0 10px; */
+    line-height: 60px;
 }
 .banner_text h2 {
     width: 100%;
