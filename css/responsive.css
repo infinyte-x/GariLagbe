@@ -285,6 +285,7 @@ img, svg {
     font-size: 64px;
     font-family: var(--titillium);
     line-height: 60px;
+    -webkit-animation: text-pop-up-right 1.5s ease-in-out 0.2s reverse both;
 }
 .banner_text h2 {
     width: 100%;
