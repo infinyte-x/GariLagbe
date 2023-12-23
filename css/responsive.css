@@ -67,12 +67,20 @@ img, svg {
     flex-direction: column;
     row-gap: 20px;
 }
-
-.astory, .amission {
+.astory{
     padding: 50px 50px;
     color: whitesmoke;
-    background-color: #00191F;
     border-radius: 10px;
+    width: fit-content;
+    background-color: var(--brand-aux);
+    justify-content: space-between;
+}
+.amission {
+    padding: 50px 50px;
+    color: #555;
+    border-radius: 10px;
+    width: fit-content;
+    justify-content: space-between;
 }
 #team {
     width: 100%;

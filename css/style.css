@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 }
 
 /* ============ navbar =================*/
-.navbar-text,navbar
+.navbar-text,.navbar
 .nav-link,
 .nav-link.active
 .navbar-nav .nav-link.show{
@@ -265,7 +265,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     background: var(--brand-color);
     border-radius: 2;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
     font-family: var(--titillium);
     color: #fff;
     display: flex;
@@ -666,7 +666,7 @@ form button{
 .headline h1{
     color:#eee;
     padding: 12px 0 8px 0;
-    letter-spacing: 3px;
+
     font-size: 44px;
 }
 .headline p{
@@ -872,9 +872,9 @@ form button{
 
 .tools_item {
     width: 300px;
-    color: #FFFFFF;
+    color: #555;
     height: 250px;
-    background: linear-gradient(45deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
+    background: #eaeaea;
     padding: 18px;
     border-radius: 5px;
     transition: 0.25s all linear;
@@ -1434,20 +1434,18 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
 
 #mission .row4{
         display: flex;
-        align-items: center;
         justify-content: space-between;
-        gap: 20px;
 }
 
 .amission{
     height: 300px;
     display: grid;
-    align-content: space-evenly;
+    width: 640px;
 }
 .astory{
     height: 300px;
     display: grid;
-    align-content: space-evenly;
+    width: 640px;
 }
 
 .astory p::first-letter{
@@ -1463,14 +1461,14 @@ background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
 
 .amission {
     padding: 50px 50px;
-    color: whitesmoke;
-    background-color: #00191F;
+    color: #555;
+    background-color: #fff;
     border-radius: 10px;
 }
 .astory {
     padding: 50px 50px;
-    color: whitesmoke;
-    background-color: #00191F;
+    color: #555;
+    background-color: #fff;
     border-radius: 10px;
 }
 .whowe {

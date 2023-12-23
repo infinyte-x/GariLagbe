@@ -235,18 +235,16 @@
     <script>
       function sendEmail(){
               Email.send({
-                SecureToken: " 87b6d2fc-ffcf-4a43-8e89-7151c2f9b82b",
+                SecureToken: "60a6346f-26e1-4677-8f4b-4971a556a82f",
                 To : 'garilagbehelp@gmail.com',
                 From : document.getElementById("email").value,
                 Subject : "Message from Site",
                 Body : "Name: " + document.getElementById("name").value
-                // + "<br> Email: " + document.getElementById("email").value
-                // + "<br> Phone No: " + document.getElementById("phone").value
-                // + "<br> Message: " + document.getElementById("massage").value
-                }).then(
+          
+              }).then(
                 message => alert("Message Sent Successful")
                 );
-                }
+            }
     
     </script>
     <!-- =========== JS Part End ========== -->
