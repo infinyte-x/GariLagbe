@@ -1,3 +1,12 @@
+// ============ nav active  ===============>
+
+
+
+
+
+
+// ============ nav active  ===============>
+
 // ====== Slick Slider Part Start ========//
 // -------- Feature Slider ----------
 $('.feature_slider').slick({
