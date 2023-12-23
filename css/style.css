@@ -1012,7 +1012,10 @@ box-shadow: 21px 28px 51px -15px rgba(0,25,31,1);
 #works{
     width: 100%;
     padding: 100px 0;
-    background: linear-gradient(200deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
+    /* background: linear-gradient(200deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%); */
+    background: url(../images/bg5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .works_text_item{
     width: 445px ;
@@ -1124,7 +1127,7 @@ box-shadow: 21px 28px 51px -15px rgba(0,25,31,1);
 /* ========= Footer Part Start ========= */
 footer{
     width: 100%;
-    padding-top: 15px;
+    padding-top: 40px;
     background: rgb(0,82,83);background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
 }
 .footer_left{
