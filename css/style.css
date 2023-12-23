@@ -906,18 +906,22 @@ form button{
 /* ========= Features Part Start ========= */
 #features{
     width: 100%;
-    background: linear-gradient(45deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
+    background: #00191F;
     padding: 80px 0;
 }
 .feature_slider{
     position: relative;
 }
+
 .feature_slider .feature_slider_item{
-    width:100%;
-    gap: 10px;
+    width:90%;
     padding: 40px 40px 40px 40px ;
     border-radius: 0;
-    background: linear-gradient(45deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
+    background: #ebebeb;
+    border-radius: 20px;
+    -webkit-box-shadow: 21px 28px 51px -15px rgba(0,25,31,1);
+-moz-box-shadow: 21px 28px 51px -15px rgba(0,25,31,1);
+box-shadow: 21px 28px 51px -15px rgba(0,25,31,1);
 }
 .feature_slider_img img{
     height: 240px;
@@ -933,7 +937,7 @@ form button{
     font-family: var(--titillium);
     line-height: 24px;
     text-align: center;
-    color:#eee;
+    color: #00191F;
     margin-top: 16px;
 }
 .feature_slider_item .feature_text p{
@@ -942,7 +946,7 @@ form button{
     font-weight: 400;
     font-family: var(--titillium);
     line-height: 30px;
-    color:var(--secondary-color) ;
+    color: #00191F;
     margin: 20px 0;
     text-align:justify;
 }
