@@ -678,7 +678,7 @@ form button{
     padding: 20px 2px;
 }
 .contacts_text{
-    background: linear-gradient(262deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
+    background: var(--brand-aux);
     background-size: cover;
     display: grid;
     padding: 24px 0;
@@ -714,6 +714,10 @@ form button{
     max-width: 854px;
     margin-left: 10px;
 }
+.google_map iframe{
+    border: #00191F 5px solid;
+    border-radius: 5px;
+}
 
 
 /* ================== contact information ================= */
@@ -730,7 +734,7 @@ form button{
 }
 
 .coltext {
-    background: linear-gradient(45deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
+    background: var(--brand-aux);
     display: grid;
     max-height: 648px;
     margin-left: 10px;
@@ -806,8 +810,6 @@ form button{
     max-width: 432px;
     background-repeat: no-repeat;
 }
-
-
 
 
 /* ================= crm1 part end ================== */
