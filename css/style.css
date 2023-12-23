@@ -1521,7 +1521,8 @@ a{
     padding: 80px 20px;
     color: whitesmoke;
     text-align: center;
-    background: linear-gradient(47deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
+    /* background: linear-gradient(47deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%); */
+    backdrop-filter: blur(8px);
 }
 #team h1{
     padding-bottom: 50px;
