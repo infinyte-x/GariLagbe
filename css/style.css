@@ -1129,7 +1129,7 @@ box-shadow: 21px 28px 51px -15px rgba(0,25,31,1);
 footer{
     width: 100%;
     padding-top: 40px;
-    background: rgb(0,82,83);background: linear-gradient(0deg, rgba(0,82,83,1) 0%, rgba(0,25,31,1) 100%);
+    background: #00191f;
 }
 .footer_left{
     display: grid;
