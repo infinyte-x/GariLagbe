@@ -4,7 +4,6 @@
 
 // navLinkEls.forEach(navLinkEl => {
 //   const navLinkPathname = new URL(navLinkEl.href).pathname;
- 
 //   if ((windowPathname === navLinkPathname) || (windowPathname === '/index.html' && navLinkPathname === '/')) {
 //     navLinkEl.classList.add('active');
 //   }
@@ -23,9 +22,9 @@ $('.feature_slider').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay:true,
-  autoplaySpeed: 1000,
+  autoplaySpeed: 1500,
   arrows:true,
-  centerPadding: '0px',
+  centerPadding: '60px',
   centerMode:true,
   prevArrow: '<i class="fa-solid fa-chevron-left prevarrow"></i>',
   nextArrow: '<i class="fa-solid fa-chevron-right nextarrow"></i>',
