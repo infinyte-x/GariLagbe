@@ -24,6 +24,7 @@ $('.feature_slider').slick({
   autoplay:true,
   autoplaySpeed: 1500,
   arrows:true,
+  variableWidth: false,
   centerPadding: '0px',
   centerMode:false,
   prevArrow: '<i class="fa-solid fa-chevron-left prevarrow"></i>',

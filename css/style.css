@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 .navbar-collapse,
 .navbar-brand .logo{
     /* margin-left: -20px; */
-    width: 160px !important;
+    width: 80px !important;
 }
 
 .navbar-dark{
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     background-color: var(--brand-aux);
 }
 .menubar .logo{
-    width: 160px;
+    width: 80px;
 }
 .menu_item li{
     padding: 0 12px;
@@ -301,18 +301,32 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     padding: 132px 50px;
     margin-top: 0;
     animation: myAnim 3s cubic-bezier(0.33, 1, 0.68, 1) 1s 1 normal both;
+    z-index: -1;
+    position: relative;
+    &:before {
+        content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-image: linear-gradient(to right,#00191f,#00000000);
+            opacity: .6;
+            z-index: -1;
+}
 }
 @keyframes myAnim {
 	0% {
-		background-position: right center;
+		background-position: left center;
 		background-size: 100%;
 	}
 
 	100% {
-		background-position: right center;
-		background-size: 150%;
+		background-position: left center;
+		background-size: 120%;
 	}
 }
+
 
 
 #banner2 {
