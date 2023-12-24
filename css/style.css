@@ -349,9 +349,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     line-height: normal;
     margin-top: -20px;
     font-style: italic;
-    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
-    -webkit-animation: text-pop-up-right 2.3s ease-in-out 0.5s reverse both;
-    animation: text-pop-up-right 2.3s ease-in-out 0.5s reverse both;
+    animation: text-pop-up-right 2s ease-in-out 0.3s reverse both;
 }
 
 .banner_text h1 span{
@@ -359,9 +357,8 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     text-shadow: #000000 4px 4px 4px;
     font-weight: 800;
     font-style: italic;
-    -webkit-animation: text-pop-up-right 2.3s ease-in-out 0.5s reverse both;
-    animation: text-pop-up-right 2.3s ease-in-out 0.5s reverse both;
-    text-shadow: 0 1px 0 #921919, 0 2px 0 #921919, 0 3px 0 #921919, 0 4px 0 #921919, 0 5px 0 #921919, 0 6px 0 #921919, 0 7px 0 #921919, 0 8px 0 #921919, 0 9px 0 #921919, 0 50px 30px rgba(0, 0, 0, 0.3);
+    -webkit-animation: text-pop-up-right 2s ease-in-out 0.3s reverse both;
+    animation: text-pop-up-right 2s ease-in-out 0.3s reverse both;
 }
 @keyframes text-pop-up-right {
         0% {
@@ -895,7 +892,7 @@ form button{
     padding: 120px 0;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    /* height: 100%; */
 }
 .tools_cards{
     margin-top: 80px;
@@ -1119,7 +1116,7 @@ box-shadow: 21px 28px 51px -15px rgba(0,25,31,1);
 }
 
 .row .download_text a {
-    margin-left: 25%;
+    margin-left: 22%;
     width: 150px;
     height: 48px;
     background: var(--brand-color);
