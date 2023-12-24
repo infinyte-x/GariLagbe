@@ -209,10 +209,10 @@
       function sendEmail(){
               Email.send({
                 SecureToken: "60a6346f-26e1-4677-8f4b-4971a556a82f",
-                To : 'garilagbehelp@gmail.com',
                 From : document.getElementById("email").value,
+                To : 'garilagbehelp@gmail.com',
                 Subject : "Message from Site",
-                Body : "Name: " + document.getElementById("name").value
+                Body : 'hello',
           
               }).then(
                 message => alert("Message Sent Successful")
