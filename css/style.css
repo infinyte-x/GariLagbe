@@ -523,7 +523,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
     display: grid;
     z-index: 3;
     position: absolute;
-    top: 31%;
+    top: 25%;
     right: 7.5%;
     padding: 38px;
     height: 382px;
