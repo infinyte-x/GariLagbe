@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: url(login_banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00000091;
+
+}
+
+.container .logo{
+    padding: 30px;
+    margin-left: 20px;
+}
+
+
+.container .logo img{
+    width: 200px;
+}
+
+
+.login_container{
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+     height: 70vh;
+}
+
+.login_container .login{
+    padding: 60px 68px 40px;
+    width: 500px;
+    height: 700px;
+    background-color: #000000a2;
+    border-radius: 4px;
+}
+
+.login_container .login .login_content .signin h1{
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+
+.login_container .login .login_content .input-group{
+    padding: 10px;
+}
+
+.login_container .login .login_content .input-group input{
+    width: 100%;
+    padding: 20px;
+    border-radius: 4px;
+    outline: none;
+    background-color: #333;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.login_container .login .login_content .signin_btn{
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+.login_container .login .login_content .signin_btn button{
+    width: 100%;
+    padding: 20px;
+    border: 0;
+    background-color: #e50914;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+.login_container .login .login_content .remember{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #8c8c8c;
+
+}
+
+.login_container .login .login_content .remember input{
+    padding: 10px;
+}
+
+.login_container .login .login_content .remember a{
+    text-decoration: none;
+    color: #8c8c8c;
+
+}
+
+.login_container .login .login_content .remember a:hover{
+    text-decoration: underline;
+}
+
+.login_container .login .login_content .others{
+    padding: 10px;
+    color: #8c8c8c;
+    font-size: 18px;
+
+}
+
+.login_container .login .login_content .others a{
+    text-decoration: none;
+        color: #dbdbdb;
+
+}
+
+
+.login_container .login .login_content .others a:hover{
+    text-decoration: underline;
+}
+
+.login_container .login .login_content .content{
+    padding: 10px;
+    color: #8c8c8c;
+}
+
+.login_container .login .login_content .content a{
+    color: #0071eb;
+}
+
+footer{
+    margin-top: 100px;
+}
+
+footer .footer_container{
+    padding: 20px;
+    width: 100%;
+    background-color: #000000a2;
+    color: #8c8c8c;
+    box-sizing: border-box;
+}
+
+.footer_content{
+    margin: auto;
+    max-width: 900px;
+}
+
+.footer_content .contact a{
+
+    text-decoration: none;
+    color: #8c8c8c;
+
+}
+.footer_content .contact a:hover{
+    text-decoration: underline;
+}
+
+.footer_content  .footer_pages{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 2px;
+    margin-top: 20px;
+}
+
+.footer_content  .footer_pages .grid_1{
+    padding: 5px;
+    width: 200px;
+}
+
+.footer_content  .footer_pages .grid_1 a{
+    text-decoration: none;
+    color: #8c8c8c;
+    font-size: 12px;
+}
+
+.footer_content  .footer_pages .grid_1 a:hover{
+    text-decoration: underline;
+}
+
+.language{
+    padding: 15px;
+    background-color: #111;
+    width: 120px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+select{
+    border: 0;
+    background-color: transparent;
+    color: #8c8c8c;
+    outline: none;
+}
