@@ -255,14 +255,14 @@ h1, h2, h3, h4, h5, h6, ul, ol, p{
 
 
 .get_button a {
-    width: 150px;
-    height: 40px;
+    width: 100px;
+    height: 36px;
     /* padding: 10px 00px 10px 0px; */
     background: var(--brand-color);
     border-radius: 2;
     font-size: 18px;
     font-weight: 500;
-    font-family: var(--titillium);
+    /* font-family: var(--titillium); */
     color: #fff;
     display: flex;
     justify-content: center;
