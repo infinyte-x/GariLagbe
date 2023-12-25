@@ -5,55 +5,51 @@
 }
 
 body{
-
     background: url(login_banner.png);
-    background-position: center;
+    /* background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     font-family: 'Arial', sans-serif;
-    height: 100vh;
 }
 
 .container{
-    height: 100vh;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #00000091;
-
 }
 
 .container .logo{
-    padding: 30px;
+    padding: 20px;
     margin-left: 20px;
 }
 
 
 .container .logo img{
-    width: 200px;
+    width: 80px;
 }
 
 
-.login_container{
+.login_container {
     /* height: 100%; */
     display: flex;
     justify-content: center;
-    align-items: center; 
-     height: 70vh;
+    height: 100%;
 }
 
-.login_container .login{
-    padding: 60px 68px 40px;
-    width: 500px;
-    height: 700px;
-    background-color: #000000a2;
+.login_container .login {
+    padding: 40px;
+    max-width: 400px;
+    max-height: 550px;
+    background-color: #00191f94;
+    backdrop-filter: blur(30px);
     border-radius: 4px;
 }
 
 .login_container .login .login_content .signin h1{
-    color: #fff;
+    color: #eaeaea;
     margin-bottom: 20px;
+    text-align: center;
 
 }
 
@@ -61,15 +57,15 @@ body{
     padding: 10px;
 }
 
-.login_container .login .login_content .input-group input{
+.login_container .login .login_content .input-group input {
     width: 100%;
     padding: 20px;
     border-radius: 4px;
     outline: none;
-    background-color: #333;
+    background-color: #eaeaea;
     border: 0;
-    font-size: 16px;
-    color: #fff;
+    font-size: 18px;
+    color: #ff5573;
 }
 
 .login_container .login .login_content .signin_btn{
@@ -106,12 +102,13 @@ body{
 
 .login_container .login .login_content .remember a{
     text-decoration: none;
-    color: #8c8c8c;
+    color: #eaeaea;
 
 }
 
 .login_container .login .login_content .remember a:hover{
     text-decoration: underline;
+    background-color: firebrick;
 }
 
 .login_container .login .login_content .others{
@@ -123,7 +120,7 @@ body{
 
 .login_container .login .login_content .others a{
     text-decoration: none;
-        color: #dbdbdb;
+        color: #171717;
 
 }
 
