@@ -1621,16 +1621,6 @@ a{
     width: 80px;
     height: 400px;
     border-radius: 50px;
-    background: url(../images/img7.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: all .3s;
-}
-.img-box:nth-child(8){
-    width: 80px;
-    height: 400px;
-    border-radius: 50px;
     background: url(../images/img8.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -1836,12 +1826,6 @@ a{
     left: 0;
     opacity: 0;
 }
-
-
-
-
-
-
 
 }
 
