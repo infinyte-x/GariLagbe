@@ -40,7 +40,7 @@ body{
     padding: 40px;
     max-width: 400px;
     max-height: 550px;
-    background-color: #00191f94;
+    background-color: #eaeaea88;
     backdrop-filter: blur(30px);
     border-radius: 4px;
     -webkit-box-shadow: 5px 5px 30px 0px rgb(50, 50, 50);
@@ -48,7 +48,7 @@ body{
 box-shadow: 5px 5px 30px 0px rgb(50, 50, 50);
 }
 
-.login_container .login .login_content .signin h1{
+.login_container .login .login_content h1{
     color: #eaeaea;
     margin-bottom: 20px;
     text-align: center;
@@ -70,13 +70,13 @@ box-shadow: 5px 5px 30px 0px rgb(50, 50, 50);
     color: #ff5573;
 }
 
-.login_container .login .login_content .signin_btn{
+.login_container .login .login_content .signup_btn{
     margin-top: 20px;
     padding: 10px;
 
 }
 
-.login_container .login .login_content .signin_btn button{
+.login_container .login .login_content .signup_btn button{
     width: 100%;
     padding: 20px;
     border: 0;
@@ -112,7 +112,8 @@ box-shadow: 5px 5px 30px 0px rgb(50, 50, 50);
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    color: #8c8c8c;
+    color: #eaeaea;
+    font-weight: 400;
 
 }
 
@@ -133,8 +134,9 @@ box-shadow: 5px 5px 30px 0px rgb(50, 50, 50);
 
 .login_container .login .login_content .others{
     padding: 10px;
-    color: #8c8c8c;
-    font-size: 18px;
+    color: #00191f;
+    font-size: 17px;
+    font-weight: 600;
 
 }
 
@@ -158,68 +160,3 @@ box-shadow: 5px 5px 30px 0px rgb(50, 50, 50);
     color: #0071eb;
 }
 
-footer{
-    margin-top: 100px;
-}
-
-footer .footer_container{
-    padding: 20px;
-    width: 100%;
-    background-color: #000000a2;
-    color: #8c8c8c;
-    box-sizing: border-box;
-}
-
-.footer_content{
-    margin: auto;
-    max-width: 900px;
-}
-
-.footer_content .contact a{
-
-    text-decoration: none;
-    color: #8c8c8c;
-
-}
-.footer_content .contact a:hover{
-    text-decoration: underline;
-}
-
-.footer_content  .footer_pages{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-    gap: 2px;
-    margin-top: 20px;
-}
-
-.footer_content  .footer_pages .grid_1{
-    padding: 5px;
-    width: 200px;
-}
-
-.footer_content  .footer_pages .grid_1 a{
-    text-decoration: none;
-    color: #8c8c8c;
-    font-size: 12px;
-}
-
-.footer_content  .footer_pages .grid_1 a:hover{
-    text-decoration: underline;
-}
-
-.language{
-    padding: 15px;
-    background-color: #111;
-    width: 120px;
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-select{
-    border: 0;
-    background-color: transparent;
-    color: #8c8c8c;
-    outline: none;
-}
